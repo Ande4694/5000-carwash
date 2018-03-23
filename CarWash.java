@@ -5,6 +5,9 @@ public class CarWash{
    public static void main(String[]args)throws IOException{
    Logger log1 = new Logger("Carwash_log.txt");
    // log1.log("hvad skal der logges?");
+   Customer claus = new Customer();
+   claus.createWashCard();
+   claus.depositWashCard(500.00);
 
         String username;
         String password;
@@ -197,15 +200,15 @@ public class CarWash{
          {
 
       case 1:
-      System.out.println("bad");
+      claus.wash3();
       break;
       
       case 2:
-      System.out.println("good");
+      claus.wash2();
       break;
       
       case 3:
-      System.out.println("okay");
+      claus.wash1();
       break;
       
       
