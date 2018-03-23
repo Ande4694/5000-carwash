@@ -32,12 +32,14 @@ public class CarWash{
         
         
         System.out.println("*** Welcome to Grp. 5000 Car Wash machine ***\n");
+        log1.log("System was started");
         menuPromptStart();
         
         // anti Jarl, således at Jarl ikke ødelægger vores code ....
         while (!input.hasNextInt()) {
         input.next();
         System.out.println("Not an integer; try again.\nNice try Jarl...");
+        log1.log("User entered wrong input");
         }
 
         int choice; 
@@ -55,11 +57,14 @@ public class CarWash{
          // not done. missing payment and receipt
          while (choice !=5000){
          System.out.println("To Create an account you most type a username and a password\n");
+         log1.log("Attempt to create a new account and password");
          System.out.println("Please type a Username :");
          String Username = input.next();
+         log1.log("New user created: "+Username);
          System.out.println("please type a password :");
          String Password = input.next();
          System.out.println("please type password again :");
+         log1.log(Username+" created a password :"+Password);
          
          
          if(Password.equals(input.next())){
@@ -68,17 +73,20 @@ public class CarWash{
          }
          else{
          System.out.println("Password did not match, try again.");
+         log1.log(Username+" entered wrong password");
           }
          listOfUsers.add(new User(Username,Password));
          }
          
          
          System.out.println("Account created!\n");
+         log1.log("New user created");
          menuPromptStart();
          break;
          
          case 0:
          System.out.println("Have nice day!");
+         log1.log("User exited system");
          System.exit(0);
          break;
 
@@ -96,10 +104,12 @@ public class CarWash{
         username = br.readLine();   
         System.out.println("Please type your pin code :");
         password = br.readLine();
+        log1.log((username)+" entered the system with password: "+password);
 
         // Iterate through list of users to see if we have a match
         for (User user : listOfUsers)
         {
+        
             if (user.getUsername().equals(username))
             {
                
@@ -118,11 +128,13 @@ public class CarWash{
         if (loggedInUser != null)
         {
             System.out.println("User successfully logged in: "+loggedInUser.getUsername());
+            log1.log("Succesfuly logged in.");
        }
         
         else
         {
             System.out.println("Invalid username or password");
+            log1.log("Invalid username or password");
             main(new String[0]);
         }
 
@@ -137,6 +149,7 @@ public class CarWash{
         while (!input.hasNextInt()) {
         input.next();
         System.out.println("Not an integer; try again.\nNice try " + loggedInUser.getUsername() + "...");
+        log1.log(loggedInUser.getUsername()+" did something wrong.");
         }
       
       do 
@@ -174,6 +187,7 @@ public class CarWash{
         while (!input.hasNextInt()) {
         input.next();
         System.out.println("Not an integer; try again.\nNice try " + loggedInUser.getUsername() + "...");
+        log1.log(loggedInUser.getUsername()+" did something wrong.");
         }
       
       do 
@@ -197,11 +211,13 @@ public class CarWash{
       
       case 0:
       System.out.println("Have a nice day " + loggedInUser.getUsername());
+      log1.log(loggedInUser.getUsername()+" logged out");
       System.exit(0);
       break;
       
       default:
       System.out.println(loggedInUser.getUsername() + "...");
+      log1.log(loggedInUser.getUsername()+" did something wrong.");
       break;
       
       }

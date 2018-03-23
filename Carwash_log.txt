@@ -1,0 +1,14 @@
+Fri Mar 23 10:54:39 CET 2018 : System was started
+Fri Mar 23 10:54:53 CET 2018 : Someone entered the system with password: 7894
+Fri Mar 23 10:54:53 CET 2018 : Succesfuly logged in.
+Fri Mar 23 10:55:11 CET 2018 : Anders logged out
+Fri Mar 23 10:55:41 CET 2018 : System was started
+Fri Mar 23 10:55:50 CET 2018 : Someone entered the system with password: 1
+Fri Mar 23 10:55:50 CET 2018 : Invalid username or password
+Fri Mar 23 10:55:50 CET 2018 : System was started
+Fri Mar 23 10:55:55 CET 2018 : User entered wrong input
+Fri Mar 23 10:56:02 CET 2018 : Someone entered the system with password: 1
+Fri Mar 23 10:56:02 CET 2018 : Succesfuly logged in.
+Fri Mar 23 10:58:35 CET 2018 : System was started
+Fri Mar 23 10:58:40 CET 2018 : Admin entered the system with password: 1
+Fri Mar 23 10:58:40 CET 2018 : Succesfuly logged in.

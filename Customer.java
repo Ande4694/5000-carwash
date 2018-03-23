@@ -10,6 +10,11 @@ public class Customer{
    private double administrationFee = 150.00;
    Car customerCar = new Car();
    
+   // default constructor  til customer så de har 1000 dkk
+   public Customer(){
+      creditCard[0]=1000;
+   }
+   
    // customer washes car1 300dkk - 150 dirt
    public void wash1(){
       if(washcard[0]>=300){
@@ -30,7 +35,7 @@ public class Customer{
       }
    }
 
-   // customer washes car2 200dkk - 100 dirt 
+   // customer washes car3 100dkk - 50 dirt 
    public void wash3(){
       if(washcard[0]>=100){
       washcard[0]-=100.00;
@@ -64,7 +69,7 @@ public class Customer{
          washcard[0]+=money;
          System.out.println(money+" dkk has been transfered from your credit card to you washcard.\nYour currently have "+washcard[0]+" dkk on your wash card.");
       } else {
-         System.out.println("You do not have enough funds on youir credit card..");
+         System.out.println("You do not have enough funds on your credit card..");
       }     
    }
    
