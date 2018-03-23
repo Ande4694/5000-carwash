@@ -30,3 +30,8 @@ Customer class:
 - setWashCard(double money);     sætter washcard
 - getCreditCard();
 - getWashcard();
+
+User class:
+- User(username, password);
+- getUsername();
+- getPassword();
