@@ -59,3 +59,161 @@ Fri Mar 23 11:26:59 CET 2018 : Admin logged out
 Fri Mar 23 11:28:08 CET 2018 : System was started
 Fri Mar 23 11:28:12 CET 2018 : Admin entered the system with password: 1
 Fri Mar 23 11:28:12 CET 2018 : Succesfuly logged in.
+Fri Mar 23 11:33:56 CET 2018 : System was started
+Fri Mar 23 11:34:02 CET 2018 : Anders entered the system with password: 7894
+Fri Mar 23 11:34:02 CET 2018 : Succesfuly logged in.
+Fri Mar 23 11:34:18 CET 2018 : Car was washed with "Super wash"
+Fri Mar 23 11:34:21 CET 2018 : Anders logged out
+Fri Mar 23 11:35:21 CET 2018 : System was started
+Fri Mar 23 11:35:24 CET 2018 : Admin entered the system with password: 1
+Fri Mar 23 11:35:24 CET 2018 : Succesfuly logged in.
+Fri Mar 23 12:34:05 CET 2018 : System was started
+Fri Mar 23 12:34:07 CET 2018 : Attempt to create a new account and password
+Fri Mar 23 12:34:14 CET 2018 : New user created: Torben
+Fri Mar 23 12:34:16 CET 2018 : Torben created a password :23
+Fri Mar 23 12:34:19 CET 2018 : New user created
+Fri Mar 23 12:34:27 CET 2018 : Torben entered the system with password: 23
+Fri Mar 23 12:34:27 CET 2018 : Succesfuly logged in.
+Fri Mar 23 12:34:40 CET 2018 : Car was washed with "Bad wash"
+Fri Mar 23 12:34:42 CET 2018 : Car was washed with "Good wash"
+Fri Mar 23 12:34:43 CET 2018 : Not enough funds for the "Super wash"
+Fri Mar 23 12:34:46 CET 2018 : Torben logged out
+Fri Mar 23 20:33:48 CET 2018 : System was started
+Fri Mar 23 20:33:55 CET 2018 : Admin entered the system with password: 1
+Fri Mar 23 20:33:55 CET 2018 : Succesfuly logged in.
+Fri Mar 23 20:41:31 CET 2018 : System was started
+Fri Mar 23 20:41:38 CET 2018 : Admin entered the system with password: 1
+Fri Mar 23 20:41:38 CET 2018 : Succesfuly logged in.
+Fri Mar 23 20:42:20 CET 2018 : System was started
+Fri Mar 23 20:42:24 CET 2018 : Attempt to create a new account and password
+Fri Mar 23 20:42:25 CET 2018 : New user created: 1
+Fri Mar 23 20:42:26 CET 2018 : 1 created a password :4
+Fri Mar 23 20:42:27 CET 2018 : 1 entered wrong password
+Fri Mar 23 20:42:27 CET 2018 : Attempt to create a new account and password
+Fri Mar 23 20:42:31 CET 2018 : New user created: Anders
+Fri Mar 23 20:42:33 CET 2018 : Anders created a password :123
+Fri Mar 23 20:42:34 CET 2018 : New user created
+Fri Mar 23 20:42:39 CET 2018 : Anders entered the system with password: 123
+Fri Mar 23 20:42:39 CET 2018 : Succesfuly logged in.
+Fri Mar 23 20:42:43 CET 2018 : Car was washed with "Super wash"
+Fri Mar 23 20:42:47 CET 2018 : Anders logged out
+Fri Mar 23 20:48:41 CET 2018 : System was started
+Fri Mar 23 20:48:47 CET 2018 : Admin entered the system with password: 1
+Fri Mar 23 20:48:47 CET 2018 : Succesfuly logged in.
+Fri Mar 23 20:49:05 CET 2018 : Admin logged out
+Fri Mar 23 20:49:07 CET 2018 : System was started
+Fri Mar 23 20:49:09 CET 2018 : Attempt to create a new account and password
+Fri Mar 23 20:49:11 CET 2018 : New user created: lol
+Fri Mar 23 20:49:12 CET 2018 : lol created a password :1
+Fri Mar 23 20:49:13 CET 2018 : New user created
+Fri Mar 23 20:49:16 CET 2018 : lol entered the system with password: 1
+Fri Mar 23 20:49:16 CET 2018 : Succesfuly logged in.
+Fri Mar 23 20:51:09 CET 2018 : System was started
+Fri Mar 23 20:51:13 CET 2018 : Attempt to create a new account and password
+Fri Mar 23 20:51:15 CET 2018 : New user created: lol
+Fri Mar 23 20:51:16 CET 2018 : lol created a password :1
+Fri Mar 23 20:51:16 CET 2018 : New user created
+Fri Mar 23 20:51:20 CET 2018 : lol entered the system with password: 1
+Fri Mar 23 20:51:20 CET 2018 : Succesfuly logged in.
+Fri Mar 23 20:54:58 CET 2018 : System was started
+Fri Mar 23 20:55:05 CET 2018 : Anders entered the system with password: 7894
+Fri Mar 23 20:55:05 CET 2018 : Succesfuly logged in.
+Fri Mar 23 21:01:03 CET 2018 : null succesfuly created a washcard
+Fri Mar 23 21:01:03 CET 2018 : null transfered: 500.0 to null's washcard.
+Fri Mar 23 21:01:03 CET 2018 : System was started
+Fri Mar 23 21:01:07 CET 2018 : Admin entered the system with password: 1
+Fri Mar 23 21:01:07 CET 2018 : Succesfuly logged in.
+Fri Mar 23 21:01:11 CET 2018 : Admin transfered: 400.0 to Admin's washcard.
+Fri Mar 23 21:01:41 CET 2018 : null succesfuly created a washcard
+Fri Mar 23 21:01:41 CET 2018 : null transfered: 500.0 to null's washcard.
+Fri Mar 23 21:01:41 CET 2018 : System was started
+Fri Mar 23 21:01:44 CET 2018 : Admin entered the system with password: 1
+Fri Mar 23 21:01:44 CET 2018 : Succesfuly logged in.
+Fri Mar 23 21:01:50 CET 2018 : Car was washed with "Super wash"
+Fri Mar 23 21:01:59 CET 2018 : Car was washed with "Bad wash"
+Fri Mar 23 21:02:00 CET 2018 : Not enough funds for the "Good wash"
+Fri Mar 23 21:02:02 CET 2018 : Not enough funds for the "Super wash"
+Fri Mar 23 21:02:04 CET 2018 : Admin logged out
+Fri Mar 23 21:04:43 CET 2018 : null succesfuly created a washcard
+Fri Mar 23 21:04:43 CET 2018 : null transfered: 500.0 to null's washcard.
+Fri Mar 23 21:04:43 CET 2018 : System was started
+Fri Mar 23 21:04:48 CET 2018 : Admin entered the system with password: 1
+Fri Mar 23 21:04:48 CET 2018 : Succesfuly logged in.
+Fri Mar 23 21:04:50 CET 2018 : Admin checked balance.
+Fri Mar 23 21:05:10 CET 2018 : null succesfuly created a washcard
+Fri Mar 23 21:05:10 CET 2018 : null transfered: 500.0 to null's washcard.
+Fri Mar 23 21:05:10 CET 2018 : System was started
+Fri Mar 23 21:05:13 CET 2018 : Admin entered the system with password: 1
+Fri Mar 23 21:05:13 CET 2018 : Succesfuly logged in.
+Fri Mar 23 21:05:15 CET 2018 : Admin checked balance.
+
+Fri Mar 23 21:05:20 CET 2018 : Car was washed with "Bad wash"
+Fri Mar 23 21:05:28 CET 2018 : Admin logged out
+Fri Mar 23 21:06:30 CET 2018 : System was started
+Fri Mar 23 21:06:33 CET 2018 : Admin entered the system with password: 1
+Fri Mar 23 21:06:33 CET 2018 : Succesfuly logged in.
+Fri Mar 23 21:06:35 CET 2018 : Admin checked balance.
+
+Fri Mar 23 21:06:38 CET 2018 : Not enough funds for the "bad wash"
+Fri Mar 23 21:06:44 CET 2018 : Admin logged out
+Fri Mar 23 21:10:40 CET 2018 : System was started
+Fri Mar 23 21:10:41 CET 2018 : Attempt to create a new account and password
+Fri Mar 23 21:10:43 CET 2018 : New user created: lol
+Fri Mar 23 21:10:44 CET 2018 : lol created a password :2
+Fri Mar 23 21:10:44 CET 2018 : New user created
+Fri Mar 23 21:10:47 CET 2018 : lol entered the system with password: 2
+Fri Mar 23 21:10:47 CET 2018 : Succesfuly logged in.
+Fri Mar 23 21:10:49 CET 2018 : lol checked balance.
+Fri Mar 23 21:18:46 CET 2018 : System was started
+Fri Mar 23 21:18:51 CET 2018 : Admin entered the system with password: 1
+Fri Mar 23 21:18:51 CET 2018 : Succesfuly logged in.
+Fri Mar 23 21:18:52 CET 2018 : Admin checked balance.
+Fri Mar 23 21:19:45 CET 2018 : Admin transfered: 1000.0 to Admin's washcard.
+Fri Mar 23 21:19:53 CET 2018 : Admin checked balance.
+Fri Mar 23 21:20:03 CET 2018 : Car was washed with "Super wash"
+Fri Mar 23 21:20:12 CET 2018 : Admin logged out
+Fri Mar 23 21:22:58 CET 2018 : System was started
+Fri Mar 23 21:23:02 CET 2018 : Admin entered the system with password: 1
+Fri Mar 23 21:23:02 CET 2018 : Succesfuly logged in.
+Fri Mar 23 21:24:53 CET 2018 : System was started
+Fri Mar 23 21:24:57 CET 2018 : Admin entered the system with password: 1
+Fri Mar 23 21:24:57 CET 2018 : Succesfuly logged in.
+Fri Mar 23 21:25:03 CET 2018 : Admin succesfuly created a washcard
+Fri Mar 23 21:26:05 CET 2018 : System was started
+Fri Mar 23 21:26:08 CET 2018 : Admin entered the system with password: 1
+Fri Mar 23 21:26:08 CET 2018 : Succesfuly logged in.
+Fri Mar 23 21:26:09 CET 2018 : Admin succesfuly created a washcard
+Fri Mar 23 21:29:30 CET 2018 : System was started
+Fri Mar 23 21:29:33 CET 2018 : Admin entered the system with password: 1
+Fri Mar 23 21:29:33 CET 2018 : Succesfuly logged in.
+Fri Mar 23 21:29:36 CET 2018 : Admin succesfuly created a washcard
+Fri Mar 23 21:31:01 CET 2018 : System was started
+Fri Mar 23 21:31:05 CET 2018 : Admin entered the system with password: 1
+Fri Mar 23 21:31:05 CET 2018 : Succesfuly logged in.
+Fri Mar 23 21:31:07 CET 2018 : Admin succesfuly created a washcard
+Fri Mar 23 21:31:15 CET 2018 : Admin transfered: 850.0 to Admin's washcard.
+Fri Mar 23 21:31:17 CET 2018 : Admin checked balance.
+Fri Mar 23 21:31:30 CET 2018 : Car was washed with "Bad wash"
+Fri Mar 23 21:33:11 CET 2018 : System was started
+Fri Mar 23 21:33:13 CET 2018 : Attempt to create a new account and password
+Fri Mar 23 21:33:16 CET 2018 : New user created: hokus
+Fri Mar 23 21:33:16 CET 2018 : hokus created a password :1
+Fri Mar 23 21:33:17 CET 2018 : New user created
+Fri Mar 23 21:33:20 CET 2018 : hokus entered the system with password: 1
+Fri Mar 23 21:33:20 CET 2018 : Succesfuly logged in.
+Fri Mar 23 21:41:46 CET 2018 : System was started
+Fri Mar 23 21:41:50 CET 2018 : Admin entered the system with password: 1
+Fri Mar 23 21:41:50 CET 2018 : Succesfuly logged in.
+Fri Mar 23 21:41:57 CET 2018 : Admin transfered: 500.0 to Admin's washcard.
+Fri Mar 23 21:41:59 CET 2018 : Car was washed with "Bad wash"
+Fri Mar 23 21:42:16 CET 2018 : Admin logged out
+Fri Mar 23 21:47:19 CET 2018 : System was started
+Fri Mar 23 21:47:22 CET 2018 : Attempt to create a new account and password
+Fri Mar 23 21:47:25 CET 2018 : New user created: h
+Fri Mar 23 21:47:26 CET 2018 : h created a password :1
+Fri Mar 23 21:47:26 CET 2018 : New user created
+Fri Mar 23 21:47:31 CET 2018 : h entered the system with password: 1
+Fri Mar 23 21:47:31 CET 2018 : Succesfuly logged in.
+Fri Mar 23 21:47:38 CET 2018 : h transfered: 400.0 to h's washcard.
+Fri Mar 23 21:47:46 CET 2018 : Car was washed with "Super wash"
+Fri Mar 23 21:48:04 CET 2018 : h logged out

@@ -30,13 +30,13 @@ public class Car{
    public int wash(int rens){
       dirtyness-=rens;
       if(dirtyness>=170){
-         System.out.println("Your car is very dirty..");
+         System.out.println("Your car is very dirty..\n");
       } else if(dirtyness>100 && dirtyness<170){
          System.out.println("Your car is dirty..");
       } else if(dirtyness>50 && dirtyness<=100){
-         System.out.println("Your car a little dirty..");
+         System.out.println("Your car a little dirty..\n");
       } else if(dirtyness<=50){
-         System.out.println("Your car is clean!");
+         System.out.println("Your car is clean!\n");
       }
       return dirtyness;
    }

@@ -5,26 +5,24 @@ public class CarWash{
    public static void main(String[]args)throws IOException{
    Logger log1 = new Logger("Carwash_log.txt");
    // log1.log("hvad skal der logges?");
-   Customer claus = new Customer();
-   claus.createWashCard();
-   claus.depositWashCard(500.00);
+
 
         String username;
         String password;
 
 
         // Used to hold the instance of a user who successfully logged in
-        User loggedInUser = null;
+        Customer loggedInUser = null;
 
-        // Create an empty list to hold users
-        List<User> listOfUsers = new ArrayList<>();
-
-        // Add 6 users to the list
-        listOfUsers.add(new User("Thomas","1234"));
-        listOfUsers.add(new User("Anders","7894"));
-        listOfUsers.add(new User("Jonathan","1337"));
-        listOfUsers.add(new User("Gustav","3396"));
-        listOfUsers.add(new User("Admin","1"));
+        
+        Customer[] listOfCustomers = new Customer[6];       
+        
+        listOfCustomers[0] = new Customer("Thomas","1234");
+        listOfCustomers[1] = new Customer("Anders","7894");
+        listOfCustomers[2] = new Customer("Jonathan","1337");
+        listOfCustomers[3] = new Customer("Gustav","3396");
+        listOfCustomers[4] = new Customer("Admin","1");
+                 
         
 
         // Get user input
@@ -78,7 +76,7 @@ public class CarWash{
          System.out.println("Password did not match, try again.");
          log1.log(Username+" entered wrong password");
           }
-         listOfUsers.add(new User(Username,Password));
+         listOfCustomers[5] = new Customer(Username,Password);
          }
          
          
@@ -110,7 +108,7 @@ public class CarWash{
         log1.log((username)+" entered the system with password: "+password);
 
         // Iterate through list of users to see if we have a match
-        for (User user : listOfUsers)
+        for (Customer user : listOfCustomers)
         {
         
             if (user.getUsername().equals(username))
@@ -166,12 +164,25 @@ public class CarWash{
          break;
          
          case 2:
-         System.out.println("doing");
+         System.out.println("How much would you like to deposit?");
+         loggedInUser.depositWashCard(input.nextDouble());
+         menuPrompt();         
          break;
          
-         case 3:
+         case 5:
          System.out.println("work in progrees");
+         menuPrompt();
          break;
+               
+         case 3:
+         loggedInUser.checkBalance();
+         menuPrompt();
+         break; 
+         
+         case 4:
+         loggedInUser.createWashCard();
+         menuPrompt();   
+         break;  
                
          case 0:
          System.exit(0);
@@ -200,15 +211,18 @@ public class CarWash{
          {
 
       case 1:
-      claus.wash3();
+      loggedInUser.wash3();
+      menuPrompt();
       break;
       
       case 2:
-      claus.wash2();
+      loggedInUser.wash2();
+      menuPrompt();
       break;
       
       case 3:
-      claus.wash1();
+      loggedInUser.wash1();
+      menuPrompt();
       break;
       
       
@@ -224,7 +238,27 @@ public class CarWash{
       break;
       
       }
+   
       }while(choice !=0);
+         System.out.println("Would you like a receipt?");
+         System.out.println("1: Print receipt");
+         System.out.println("0: No thanks");
+                  
+         do{
+            choice = input.nextInt();
+            switch(choice)
+            {
+            case 1:
+            /// print receipt
+            // log this
+            break;
+            
+            case 0:
+            System.exit(0);
+            break;
+            
+            }
+         }while(choice !=0);
       
       
     
@@ -239,7 +273,9 @@ public class CarWash{
    {
       System.out.println("1: Wash Car");
       System.out.println("2: Deposit Money");
-      System.out.println("3: view Static");
+      System.out.println("3: View Static");
+      System.out.println("4: Check balance");
+      System.out.println("5: Create Washcard");
       System.out.println();
       System.out.println("0: Exit");
       
