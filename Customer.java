@@ -5,8 +5,8 @@ public class Customer{
    // dankort, holder double
    // vaske kort, holder double
    
-   double[] washcard;
-   double[] creditCard = new double[1];
+   private double[] washcard;
+   private double[] creditCard = new double[1];
    private double administrationFee = 150.00;
    Car customerCar = new Car();
    
