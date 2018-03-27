@@ -66,7 +66,7 @@ public class CarWash{
          case 2:
          
          while (choice !=5000){
-         System.out.println("To Create an account you most type a username and a password\n");
+         System.out.println("To Create an account you must type a username and a password\n");
          log1.log("Attempt to create a new account and password");
          System.out.println("Please type a Username :");
          String Username = input.next();
@@ -157,6 +157,9 @@ public class CarWash{
       System.out.println();
       System.out.println("Hello " + loggedInUser.getUsername() + "\n");
       menuPrompt();
+      if(admin){
+      System.out.println("6: Check statistics (admin only)");
+      }
       
 
         // anti User, således at User ikke ødelægger vores code ....
@@ -205,9 +208,9 @@ public class CarWash{
          if (admin) {
          System.out.println("Cars washed this session: \t\t\t"+(carsWashed-3));
          System.out.println("Total spend this session: \t\t\t"+(totalSpend-1));
-         System.out.println("Bad washes this session: \t\t\t"+washBad);
-         System.out.println("Good washes this session: \t\t\t"+washGood);
-         System.out.println("Super washes this session: \t\t\t"+washSuper);
+         System.out.println("Bad washes this session: \t\t\t"+(washBad-1));
+         System.out.println("Good washes this session: \t\t\t"+(washGood-1));
+         System.out.println("Super washes this session: \t\t"+(washSuper-1));
          System.out.println("Average spend this session: \t\t"+averageSpend);      
          } else {
          System.out.println("This is an admin only feature.\n");

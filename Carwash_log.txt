@@ -310,3 +310,14 @@ Tue Mar 27 15:46:51 CEST 2018 : Car was washed with "Bad wash"
 Tue Mar 27 15:46:55 CEST 2018 : Car was washed with "Good wash"
 Tue Mar 27 15:47:02 CEST 2018 : Admin did something wrong.
 Tue Mar 27 15:47:08 CEST 2018 : Admin logged out
+Tue Mar 27 16:03:47 CEST 2018 : System was started
+Tue Mar 27 16:03:54 CEST 2018 : Admin entered the system with password: 1
+Tue Mar 27 16:03:54 CEST 2018 : Succesfuly logged in.
+Tue Mar 27 16:03:58 CEST 2018 : Admin logged out
+Tue Mar 27 16:10:04 CEST 2018 : System was started
+Tue Mar 27 16:10:15 CEST 2018 : Admin entered the system with password: 1
+Tue Mar 27 16:10:15 CEST 2018 : Succesfuly logged in.
+Tue Mar 27 16:11:17 CEST 2018 : System was started
+Tue Mar 27 16:11:22 CEST 2018 : Anders entered the system with password: 7894
+Tue Mar 27 16:11:22 CEST 2018 : Succesfuly logged in.
+Tue Mar 27 16:11:25 CEST 2018 : Anders logged out.
