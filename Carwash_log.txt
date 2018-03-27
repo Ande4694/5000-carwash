@@ -332,6 +332,7 @@ Tue Mar 27 17:13:22 CEST 2018 : System was started
 Tue Mar 27 17:13:25 CEST 2018 : Admin entered the system with password: 2
 Tue Mar 27 17:13:25 CEST 2018 : Invalid username or password
 Tue Mar 27 17:13:25 CEST 2018 : System was started
+<<<<<<< HEAD
 Tue Mar 27 17:42:13 CEST 2018 : System was started
 Tue Mar 27 17:42:15 CEST 2018 : Admin entered the system with password: 1
 Tue Mar 27 17:42:15 CEST 2018 : Succesfuly logged in.
@@ -372,3 +373,29 @@ Tue Mar 27 18:24:50 CEST 2018 : Car was washed with "Bad wash"
 Tue Mar 27 18:24:52 CEST 2018 : Car was washed with "Super wash"
 Tue Mar 27 18:24:52 CEST 2018 : Not enough funds for the "Super wash"
 Tue Mar 27 18:24:56 CEST 2018 : Anders logged out
+=======
+Tue Mar 27 17:31:58 CEST 2018 : System was started
+Tue Mar 27 17:31:59 CEST 2018 : User entered wrong input
+Tue Mar 27 17:32:00 CEST 2018 : User exited system
+Tue Mar 27 17:33:08 CEST 2018 : System was started
+Tue Mar 27 17:33:13 CEST 2018 : Admin entered the system with password: 1
+Tue Mar 27 17:33:13 CEST 2018 : Succesfuly logged in.
+Tue Mar 27 17:33:15 CEST 2018 : Admin did something wrong.
+Tue Mar 27 17:33:25 CEST 2018 : Admin did something wrong.
+Tue Mar 27 17:33:26 CEST 2018 : Admin did something wrong.
+Tue Mar 27 17:33:27 CEST 2018 : Admin did something wrong.
+Tue Mar 27 17:33:28 CEST 2018 : Not enough funds for the "bad wash"
+Tue Mar 27 17:33:42 CEST 2018 : System was started
+Tue Mar 27 17:33:49 CEST 2018 : Admin entered the system with password: 2
+Tue Mar 27 17:33:49 CEST 2018 : Invalid username or password
+Tue Mar 27 17:33:49 CEST 2018 : System was started
+Tue Mar 27 17:33:53 CEST 2018 : Admin entered the system with password: 1
+Tue Mar 27 17:33:53 CEST 2018 : Succesfuly logged in.
+Tue Mar 27 17:33:57 CEST 2018 : Admin did something wrong.
+Tue Mar 27 17:33:59 CEST 2018 : Admin did something wrong.
+Tue Mar 27 17:34:01 CEST 2018 : Not enough funds for the "bad wash"
+Tue Mar 27 17:34:12 CEST 2018 : System was started
+Tue Mar 27 17:34:18 CEST 2018 : Thomas entered the system with password: 1234
+Tue Mar 27 17:34:18 CEST 2018 : Succesfuly logged in.
+Tue Mar 27 17:34:47 CEST 2018 : System was started
+>>>>>>> 6ea94e35024ba30cf625f0f3ad9eb82cc2b47a95
