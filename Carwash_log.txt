@@ -321,3 +321,14 @@ Tue Mar 27 16:11:17 CEST 2018 : System was started
 Tue Mar 27 16:11:22 CEST 2018 : Anders entered the system with password: 7894
 Tue Mar 27 16:11:22 CEST 2018 : Succesfuly logged in.
 Tue Mar 27 16:11:25 CEST 2018 : Anders logged out.
+Tue Mar 27 17:08:41 CEST 2018 : System was started
+Tue Mar 27 17:08:44 CEST 2018 : Admin entered the system with password: 2
+Tue Mar 27 17:09:06 CEST 2018 : System was started
+Tue Mar 27 17:09:09 CEST 2018 : Admin entered the system with password: 1
+Tue Mar 27 17:09:09 CEST 2018 : Succesfuly logged in.
+Tue Mar 27 17:09:13 CEST 2018 : Admin succesfuly created a washcard
+Tue Mar 27 17:09:16 CEST 2018 : Admin transfered: 600.0 to Admin's washcard.
+Tue Mar 27 17:13:22 CEST 2018 : System was started
+Tue Mar 27 17:13:25 CEST 2018 : Admin entered the system with password: 2
+Tue Mar 27 17:13:25 CEST 2018 : Invalid username or password
+Tue Mar 27 17:13:25 CEST 2018 : System was started

@@ -15,3 +15,5 @@ Tue Mar 27 15:46:45 CEST 2018 : Receipt of purchase: 600.0 washfunds added to wa
 Tue Mar 27 15:46:48 CEST 2018 : Receipt of purchase: 1x "Super wash" by: Admin price: 300dkk.
 Tue Mar 27 15:46:51 CEST 2018 : Receipt of purchase: 1x "Bad wash" by: Admin price: 100dkk.
 Tue Mar 27 15:46:55 CEST 2018 : Receipt of purchase: 1x "Good wash" by: Admin price: 200dkk.
+Tue Mar 27 17:09:13 CEST 2018 : Receipt of purchase: 1x "5000 WashCard" by: AdminAdministration fee: 150dkk.
+Tue Mar 27 17:09:16 CEST 2018 : Receipt of purchase: 600.0 washfunds added to washcard by: Admin

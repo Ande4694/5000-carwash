@@ -117,6 +117,7 @@ public class CarWash{
         log1.log((username)+" entered the system with password: "+password);
 
         // Iterate through list of users to see if we have a match
+    try{
         for (Customer user : listOfCustomers)
         {
         
@@ -136,6 +137,9 @@ public class CarWash{
                 }
             }
         }
+     }catch(Exception e){
+     System.out.println("Password did not match, try again.");
+     }
 
 
          // if loggedInUser was changed from null, it was successful
@@ -176,9 +180,60 @@ public class CarWash{
          {
          
          case 1:
-         System.out.println("Please choose a Wash");  
-         break;
-         
+         System.out.println("Please choose a Wash");
+         menuPrompt2();
+      
+            do 
+            {
+              choice = input.nextInt();
+              switch(choice)
+              {
+
+                  case 1:
+                  loggedInUser.wash3();
+                  totalSpend += 100;
+                  washBad++;
+                  menuPrompt2();
+                  break;
+      
+                  case 2:
+                  loggedInUser.wash2();
+                  totalSpend += 200;
+                  washGood++;
+                  menuPrompt2();
+                  break;
+      
+                  case 3:
+                  loggedInUser.wash1();
+                  totalSpend += 300;
+                  washSuper++;
+                  menuPrompt2();
+                  break;
+      
+                  case 5:
+                  menuPrompt();
+                  break;
+      
+      
+                  case 0:
+                  System.out.println("Have a nice day " + loggedInUser.getUsername());
+                  log1.log(loggedInUser.getUsername()+" logged out");
+                  loggedInUser = null ;
+                  System.exit(0);
+                  break;
+      
+                  default:
+                  System.out.println(loggedInUser.getUsername() + "...");
+                  log1.log(loggedInUser.getUsername()+" did something wrong.");
+                  break;
+      
+                  }
+   
+                  }while(choice !=5); 
+                   break;
+      
+     
+
          case 2:
          System.out.println("How much would you like to deposit?");
          loggedInUser.depositWashCard(input.nextDouble());
@@ -198,8 +253,8 @@ public class CarWash{
          case 5:
          System.out.println("Goodbye "+loggedInUser.getUsername());
          log1.log(loggedInUser.getUsername()+" logged out.");
-         loggedInUser = null;
-         choice = 0;/////// HVORDAN KOMEMR JEG TILBAGE TIL FØRSTE LOOP==!=!!?!=!=
+         System.exit(0);
+         main(new String[0]);
          menuPromptStart();
          break;         
                            
@@ -230,7 +285,6 @@ public class CarWash{
          }
       }while(choice !=1);
       
-      menuPrompt2();
 
         // anti User, således at User ikke ødelægger vores code ....
         while (!input.hasNextInt()) {
@@ -238,50 +292,7 @@ public class CarWash{
         System.out.println("Not an integer; try again.\nNice try " + loggedInUser.getUsername() + "...");
         log1.log(loggedInUser.getUsername()+" did something wrong.");
         }
-      
-      do 
-      {
-      choice = input.nextInt();
-         switch(choice)
-         {
 
-      case 1:
-      loggedInUser.wash3();
-      totalSpend += 100;
-      washBad++;
-      menuPrompt();
-      break;
-      
-      case 2:
-      loggedInUser.wash2();
-      totalSpend += 200;
-      washGood++;
-      menuPrompt();
-      break;
-      
-      case 3:
-      loggedInUser.wash1();
-      totalSpend += 300;
-      washSuper++;
-      menuPrompt();
-      break;
-      
-      
-      case 0:
-      System.out.println("Have a nice day " + loggedInUser.getUsername());
-      log1.log(loggedInUser.getUsername()+" logged out");
-      loggedInUser = null ;
-      break;
-      
-      default:
-      System.out.println(loggedInUser.getUsername() + "...");
-      log1.log(loggedInUser.getUsername()+" did something wrong.");
-      break;
-      
-      }
-   
-      }while(choice !=0);
-               
       
     
 
@@ -309,6 +320,7 @@ public class CarWash{
       System.out.println("2: Wash Normal");
       System.out.println("3: Wash Super");
       System.out.println();
+      System.out.println("5: Back");
       System.out.println("0: Exit");
    }
       
