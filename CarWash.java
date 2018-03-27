@@ -95,7 +95,7 @@ public class CarWash{
          break;
          
          case 0:
-         System.out.println("Have nice day!");
+         System.out.println("Have a nice day!");
          log1.log("User exited system");
          System.exit(0);
          break;
@@ -182,6 +182,13 @@ public class CarWash{
          case 1:
          System.out.println("Please choose a Wash");
          menuPrompt2();
+         
+        // anti User, således at User ikke ødelægger vores code ....
+        while (!input.hasNextInt()) {
+        input.next();
+        System.out.println("Not an integer; try again.\nNice try " + loggedInUser.getUsername() + "...");
+        log1.log(loggedInUser.getUsername()+" did something wrong.");
+        }
       
             do 
             {
