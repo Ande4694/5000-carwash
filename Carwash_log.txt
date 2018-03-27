@@ -332,3 +332,43 @@ Tue Mar 27 17:13:22 CEST 2018 : System was started
 Tue Mar 27 17:13:25 CEST 2018 : Admin entered the system with password: 2
 Tue Mar 27 17:13:25 CEST 2018 : Invalid username or password
 Tue Mar 27 17:13:25 CEST 2018 : System was started
+Tue Mar 27 17:42:13 CEST 2018 : System was started
+Tue Mar 27 17:42:15 CEST 2018 : Admin entered the system with password: 1
+Tue Mar 27 17:42:15 CEST 2018 : Succesfuly logged in.
+Tue Mar 27 18:05:04 CEST 2018 : System was started
+Tue Mar 27 18:05:09 CEST 2018 : Admin entered the system with password: 1
+Tue Mar 27 18:05:09 CEST 2018 : Succesfuly logged in.
+Tue Mar 27 18:06:06 CEST 2018 : System was started
+Tue Mar 27 18:06:10 CEST 2018 : Admin entered the system with password: 1
+Tue Mar 27 18:06:10 CEST 2018 : Succesfuly logged in.
+Tue Mar 27 18:09:13 CEST 2018 : System was started
+Tue Mar 27 18:09:16 CEST 2018 : Admin entered the system with password: 1
+Tue Mar 27 18:09:16 CEST 2018 : Succesfuly logged in.
+Tue Mar 27 18:14:43 CEST 2018 : System was started
+Tue Mar 27 18:14:49 CEST 2018 : Anders entered the system with password: 7894
+Tue Mar 27 18:14:49 CEST 2018 : Succesfuly logged in.
+Tue Mar 27 18:14:51 CEST 2018 : Anders succesfuly created a washcard
+Tue Mar 27 18:14:56 CEST 2018 : Anders transfered: 800.0 to Anders's washcard.
+Tue Mar 27 18:14:59 CEST 2018 : Car was washed with "Super wash"
+Tue Mar 27 18:15:03 CEST 2018 : Car was washed with "Super wash"
+Tue Mar 27 18:15:03 CEST 2018 : Car was washed with "Good wash"
+Tue Mar 27 18:15:04 CEST 2018 : Not enough funds for the "bad wash"
+Tue Mar 27 18:15:07 CEST 2018 : Anders logged out
+Tue Mar 27 18:17:07 CEST 2018 : System was started
+Tue Mar 27 18:17:11 CEST 2018 : Admin entered the system with password: 1
+Tue Mar 27 18:17:11 CEST 2018 : Succesfuly logged in.
+Tue Mar 27 18:24:12 CEST 2018 : System was started
+Tue Mar 27 18:24:16 CEST 2018 : Admin entered the system with password: 1
+Tue Mar 27 18:24:16 CEST 2018 : Succesfuly logged in.
+Tue Mar 27 18:24:27 CEST 2018 : System was started
+Tue Mar 27 18:24:32 CEST 2018 : Anders entered the system with password: 7894
+Tue Mar 27 18:24:32 CEST 2018 : Succesfuly logged in.
+Tue Mar 27 18:24:35 CEST 2018 : Anders succesfuly created a washcard
+Tue Mar 27 18:24:41 CEST 2018 : Anders transfered: 850.0 to Anders's washcard.
+Tue Mar 27 18:24:47 CEST 2018 : Car was washed with "Bad wash"
+Tue Mar 27 18:24:48 CEST 2018 : Car was washed with "Bad wash"
+Tue Mar 27 18:24:49 CEST 2018 : Car was washed with "Good wash"
+Tue Mar 27 18:24:50 CEST 2018 : Car was washed with "Bad wash"
+Tue Mar 27 18:24:52 CEST 2018 : Car was washed with "Super wash"
+Tue Mar 27 18:24:52 CEST 2018 : Not enough funds for the "Super wash"
+Tue Mar 27 18:24:56 CEST 2018 : Anders logged out

@@ -4,18 +4,18 @@ import java.util.*;
 public class CarWash{   
    public static void main(String[]args)throws IOException{
    Logger log1 = new Logger("Carwash_log.txt");
-   // log1.log("hvad skal der logges?");
-
-
+   CreateFile g = new CreateFile();
+   ReadFromFile y = new ReadFromFile();
+   
         String username;
         String password;
-        int totalSpend = 1;
-        int washBad = 1;
-        int washGood = 1;
-        int washSuper = 1;
-        int carsWashed = (washBad + washGood + washSuper);
-        int averageSpend = (totalSpend / carsWashed);
-
+        int totalSpend = 0;
+        int washBad = 0;
+        int washGood = 0;
+        int washSuper = 0;
+        int carsWashed = 0;
+        int averageSpend = 0;
+    
 
 
         // Used to hold the instance of a user who successfully logged in
@@ -97,6 +97,10 @@ public class CarWash{
          case 0:
          System.out.println("Have nice day!");
          log1.log("User exited system");
+         averageSpend = (totalSpend/carsWashed);
+         g.openFile();
+         g.addRecords(totalSpend, washBad, washGood, washSuper, carsWashed, averageSpend);
+         g.closeFile();
          System.exit(0);
          break;
 
@@ -193,6 +197,7 @@ public class CarWash{
                   loggedInUser.wash3();
                   totalSpend += 100;
                   washBad++;
+                  carsWashed++;
                   menuPrompt2();
                   break;
       
@@ -200,6 +205,7 @@ public class CarWash{
                   loggedInUser.wash2();
                   totalSpend += 200;
                   washGood++;
+                  carsWashed++;
                   menuPrompt2();
                   break;
       
@@ -207,6 +213,7 @@ public class CarWash{
                   loggedInUser.wash1();
                   totalSpend += 300;
                   washSuper++;
+                  carsWashed++;
                   menuPrompt2();
                   break;
       
@@ -214,11 +221,14 @@ public class CarWash{
                   menuPrompt();
                   break;
       
-      
+                  
                   case 0:
                   System.out.println("Have a nice day " + loggedInUser.getUsername());
                   log1.log(loggedInUser.getUsername()+" logged out");
-                  loggedInUser = null ;
+                  averageSpend = (totalSpend/carsWashed);
+                  g.openFile();
+                  g.addRecords(totalSpend, washBad, washGood, washSuper, carsWashed, averageSpend);
+                  g.closeFile();
                   System.exit(0);
                   break;
       
@@ -253,6 +263,10 @@ public class CarWash{
          case 5:
          System.out.println("Goodbye "+loggedInUser.getUsername());
          log1.log(loggedInUser.getUsername()+" logged out.");
+         averageSpend = (totalSpend/carsWashed);
+         g.openFile();
+         g.addRecords(totalSpend, washBad, washGood, washSuper, carsWashed, averageSpend);
+         g.closeFile();
          System.exit(0);
          main(new String[0]);
          menuPromptStart();
@@ -261,12 +275,9 @@ public class CarWash{
          case 6: ///// STATs
          //// READ FROM FILE!!! FOR PERMANENT HUKOMELSE
          if (admin) {
-         System.out.println("Cars washed this session: \t\t\t"+(carsWashed-3));
-         System.out.println("Total spend this session: \t\t\t"+(totalSpend-1));
-         System.out.println("Bad washes this session: \t\t\t"+(washBad-1));
-         System.out.println("Good washes this session: \t\t\t"+(washGood-1));
-         System.out.println("Super washes this session: \t\t"+(washSuper-1));
-         System.out.println("Average spend this session: \t\t"+averageSpend);      
+         y.openFile();
+         y.readFile();
+         y.closeFile();     
          } else {
          System.out.println("This is an admin only feature.\n");
          log1.log(loggedInUser.getUsername()+" attempted to acces admin functions.");       
@@ -276,6 +287,10 @@ public class CarWash{
                
          case 0:
          System.exit(0);
+         averageSpend = (totalSpend/carsWashed);
+         g.openFile();
+         g.addRecords(totalSpend, washBad, washGood, washSuper, carsWashed, averageSpend);
+         g.closeFile();
          break;
       
          default:
