@@ -9,11 +9,19 @@ public class CarWash{
 
         String username;
         String password;
+        int totalSpend = 1;
+        int washBad = 1;
+        int washGood = 1;
+        int washSuper = 1;
+        int carsWashed = (washBad + washGood + washSuper);
+        int averageSpend = (totalSpend / carsWashed);
+
 
 
         // Used to hold the instance of a user who successfully logged in
         Customer loggedInUser = null;
-
+        boolean admin;
+        admin = false;
         
         Customer[] listOfCustomers = new Customer[6];       
         
@@ -22,6 +30,8 @@ public class CarWash{
         listOfCustomers[2] = new Customer("Jonathan","1337");
         listOfCustomers[3] = new Customer("Gustav","3396");
         listOfCustomers[4] = new Customer("Admin","1");
+        
+
                  
         
 
@@ -55,7 +65,6 @@ public class CarWash{
          
          case 2:
          
-         // not done. missing payment and receipt
          while (choice !=5000){
          System.out.println("To Create an account you most type a username and a password\n");
          log1.log("Attempt to create a new account and password");
@@ -116,7 +125,11 @@ public class CarWash{
                
                 if (user.getPassword().equals(password))
                 {
+                    
                     loggedInUser = user;
+                    if (loggedInUser == listOfCustomers[4]){
+                    admin = true;
+                    }
 
                     // when a user is found, "break" stops iterating through the list
                     break;
@@ -168,11 +181,6 @@ public class CarWash{
          loggedInUser.depositWashCard(input.nextDouble());
          menuPrompt();         
          break;
-         
-         case 5:
-         System.out.println("work in progrees");
-         menuPrompt();
-         break;
                
          case 3:
          loggedInUser.checkBalance();
@@ -182,7 +190,31 @@ public class CarWash{
          case 4:
          loggedInUser.createWashCard();
          menuPrompt();   
-         break;  
+         break;           
+         
+         case 5:
+         System.out.println("Goodbye "+loggedInUser.getUsername());
+         log1.log(loggedInUser.getUsername()+" logged out.");
+         loggedInUser = null;
+         choice = 0;/////// HVORDAN KOMEMR JEG TILBAGE TIL FØRSTE LOOP==!=!!?!=!=
+         menuPromptStart();
+         break;         
+                           
+         case 6: ///// STATs
+         //// READ FROM FILE!!! FOR PERMANENT HUKOMELSE
+         if (admin) {
+         System.out.println("Cars washed this session: \t\t\t"+(carsWashed-3));
+         System.out.println("Total spend this session: \t\t\t"+(totalSpend-1));
+         System.out.println("Bad washes this session: \t\t\t"+washBad);
+         System.out.println("Good washes this session: \t\t\t"+washGood);
+         System.out.println("Super washes this session: \t\t\t"+washSuper);
+         System.out.println("Average spend this session: \t\t"+averageSpend);      
+         } else {
+         System.out.println("This is an admin only feature.\n");
+         log1.log(loggedInUser.getUsername()+" attempted to acces admin functions.");       
+         }
+         menuPrompt();
+         break;
                
          case 0:
          System.exit(0);
@@ -212,16 +244,22 @@ public class CarWash{
 
       case 1:
       loggedInUser.wash3();
+      totalSpend += 100;
+      washBad++;
       menuPrompt();
       break;
       
       case 2:
       loggedInUser.wash2();
+      totalSpend += 200;
+      washGood++;
       menuPrompt();
       break;
       
       case 3:
       loggedInUser.wash1();
+      totalSpend += 300;
+      washSuper++;
       menuPrompt();
       break;
       
@@ -229,7 +267,7 @@ public class CarWash{
       case 0:
       System.out.println("Have a nice day " + loggedInUser.getUsername());
       log1.log(loggedInUser.getUsername()+" logged out");
-      System.exit(0);
+      loggedInUser = null ;
       break;
       
       default:
@@ -240,26 +278,7 @@ public class CarWash{
       }
    
       }while(choice !=0);
-         System.out.println("Would you like a receipt?");
-         System.out.println("1: Print receipt");
-         System.out.println("0: No thanks");
-                  
-         do{
-            choice = input.nextInt();
-            switch(choice)
-            {
-            case 1:
-            /// print receipt
-            // log this
-            break;
-            
-            case 0:
-            System.exit(0);
-            break;
-            
-            }
-         }while(choice !=0);
-      
+               
       
     
 
@@ -273,9 +292,9 @@ public class CarWash{
    {
       System.out.println("1: Wash Car");
       System.out.println("2: Deposit Money");
-      System.out.println("3: View Static");
-      System.out.println("4: Check balance");
-      System.out.println("5: Create Washcard");
+      System.out.println("3: Check balance");
+      System.out.println("4: Create Washcard");
+      System.out.println("5: Log out");
       System.out.println();
       System.out.println("0: Exit");
       

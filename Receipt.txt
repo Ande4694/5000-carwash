@@ -1,0 +1,17 @@
+Tue Mar 27 14:30:20 CEST 2018 : Receipt of purchase: 1x "5000 WashCard" by: AdminAdministration fee: 150dkk.
+Tue Mar 27 14:30:29 CEST 2018 : Receipt of purchase: 500.0 washfunds added to washcard by: Admin
+Tue Mar 27 14:30:48 CEST 2018 : Receipt of purchase: 1x "Bad wash" by: Admin price: 100dkk.
+Tue Mar 27 14:30:53 CEST 2018 : Receipt of purchase: 1x "Bad wash" by: Admin price: 100dkk.
+Tue Mar 27 14:31:00 CEST 2018 : Receipt of purchase: 1x "Good wash" by: Admin price: 200dkk.
+Tue Mar 27 14:31:03 CEST 2018 : Receipt of purchase: 1x "Bad wash" by: Admin price: 100dkk.
+Tue Mar 27 14:46:24 CEST 2018 : Receipt of purchase: 1x "5000 WashCard" by: AdminAdministration fee: 150dkk.
+Tue Mar 27 14:46:28 CEST 2018 : Receipt of purchase: 500.0 washfunds added to washcard by: Admin
+Tue Mar 27 14:46:36 CEST 2018 : Receipt of purchase: 1x "Super wash" by: Admin price: 300dkk.
+Tue Mar 27 14:46:45 CEST 2018 : Receipt of purchase: 1x "Good wash" by: Admin price: 200dkk.
+Tue Mar 27 14:49:47 CEST 2018 : Receipt of purchase: 1x "5000 WashCard" by: AdminAdministration fee: 150dkk.
+Tue Mar 27 14:49:50 CEST 2018 : Receipt of purchase: 500.0 washfunds added to washcard by: Admin
+Tue Mar 27 15:46:41 CEST 2018 : Receipt of purchase: 1x "5000 WashCard" by: AdminAdministration fee: 150dkk.
+Tue Mar 27 15:46:45 CEST 2018 : Receipt of purchase: 600.0 washfunds added to washcard by: Admin
+Tue Mar 27 15:46:48 CEST 2018 : Receipt of purchase: 1x "Super wash" by: Admin price: 300dkk.
+Tue Mar 27 15:46:51 CEST 2018 : Receipt of purchase: 1x "Bad wash" by: Admin price: 100dkk.
+Tue Mar 27 15:46:55 CEST 2018 : Receipt of purchase: 1x "Good wash" by: Admin price: 200dkk.
