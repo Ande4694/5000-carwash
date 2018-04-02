@@ -93,7 +93,7 @@ public class CarWash{
          break;
          
          case 0:
-         System.out.println("Have nice day!");
+         System.out.println("Have a nice day!");
          log1.log("User exited system");
          averageSpend = (totalSpend/carsWashed);
          g.openFile();
@@ -104,6 +104,7 @@ public class CarWash{
          
          default:
          System.out.println("Not an integer; try again.");
+         log1.log("User entered wrong input, most likely Jarl");
          break;
 
          }
@@ -111,11 +112,7 @@ public class CarWash{
          
          
 
-        
-        
-        
-        
-        
+
         System.out.println("Please type your Username* :");
         username = br.readLine();   
         System.out.println("Please type your Password* :");
@@ -170,7 +167,7 @@ public class CarWash{
       if(admin){
       System.out.println("6: Check statistics (admin only)");
       System.out.println("8: Check Credit card");
-      // Hahaa ;)
+      // Hahaa, earnings from "Little Animal Horror Zoo" ;)
       loggedInUser.setCreditCard(9567926);
       }
       
@@ -266,9 +263,11 @@ public class CarWash{
                                    //MISSING RECEIPT!!!
                                    case 1: 
                                    System.out.println("printing...\nSorry out off paper\n");
+                                   log1.log(loggedInUser.getUsername()+" Prited out a Receipt");
                                    break;
                              
                                    case 2:
+                                   log1.log(loggedInUser.getUsername()+" Did not print out a Receipt");
                                    break;
                                    }
                                    }
@@ -380,6 +379,7 @@ public class CarWash{
          case 2:
          if (loggedInUser.getWashcard()>=1000){
          System.out.println("You are not allowed to have more than a 1000dkk on your WashCard*");
+         log1.log(loggedInUser.getUsername()+ " tried to deposit more than 1000dkk... Stupid banks roles");
          }else{
          System.out.println("How much would you like to deposit?");
          
@@ -429,6 +429,7 @@ public class CarWash{
          break;
          
          case 8:
+         log1.log(loggedInUser.getUsername()+ " Check their bank account on a wash maschine... How? O_O");
          System.out.println("You have " +loggedInUser.getCreditCard()+ " on your credit card");
          break;
                

@@ -983,3 +983,11 @@ Mon Apr 02 16:13:15 CEST 2018 : Attempt to create a new account and password
 Mon Apr 02 16:13:16 CEST 2018 : New user created: da
 Mon Apr 02 16:13:18 CEST 2018 : da created a password :awd
 Mon Apr 02 16:13:19 CEST 2018 : New user created
+Mon Apr 02 17:13:54 CEST 2018 : System was started
+Mon Apr 02 17:14:00 CEST 2018 : Admin entered the system with password: 1
+Mon Apr 02 17:14:00 CEST 2018 : Succesfuly logged in.
+Mon Apr 02 17:15:35 CEST 2018 : System was started
+Mon Apr 02 17:21:43 CEST 2018 : Admin entered the system with password: 1
+Mon Apr 02 17:21:43 CEST 2018 : Succesfuly logged in.
+Mon Apr 02 17:21:56 CEST 2018 : Admin Analyzed the cars dirtyness
+Mon Apr 02 17:43:51 CEST 2018 : System was started
