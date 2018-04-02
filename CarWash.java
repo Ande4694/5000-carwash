@@ -219,6 +219,10 @@ public class CarWash{
       
                   case 5:
                   menuPrompt();
+                  averageSpend = (totalSpend/carsWashed);
+                  g.openFile();
+                  g.addRecords(totalSpend, washBad, washGood, washSuper, carsWashed, averageSpend);
+                  g.closeFile();
                   break;
       
                   

@@ -399,3 +399,49 @@ Tue Mar 27 17:34:18 CEST 2018 : Thomas entered the system with password: 1234
 Tue Mar 27 17:34:18 CEST 2018 : Succesfuly logged in.
 Tue Mar 27 17:34:47 CEST 2018 : System was started
 >>>>>>> 6ea94e35024ba30cf625f0f3ad9eb82cc2b47a95
+Tue Mar 27 18:36:17 CEST 2018 : System was started
+Tue Mar 27 18:36:23 CEST 2018 : Admin entered the system with password: 1
+Tue Mar 27 18:36:23 CEST 2018 : Succesfuly logged in.
+Tue Mar 27 18:36:26 CEST 2018 : Admin succesfuly created a washcard
+Tue Mar 27 18:36:30 CEST 2018 : Admin transfered: 850.0 to Admin's washcard.
+Tue Mar 27 18:36:31 CEST 2018 : Car was washed with "Bad wash"
+Tue Mar 27 18:36:32 CEST 2018 : Car was washed with "Good wash"
+Tue Mar 27 18:36:32 CEST 2018 : Car was washed with "Super wash"
+Tue Mar 27 18:36:33 CEST 2018 : Car was washed with "Bad wash"
+Tue Mar 27 18:36:33 CEST 2018 : Not enough funds for the "Good wash"
+Tue Mar 27 18:36:33 CEST 2018 : Not enough funds for the "Super wash"
+Tue Mar 27 18:36:36 CEST 2018 : Admin logged out
+Tue Mar 27 18:36:38 CEST 2018 : System was started
+Tue Mar 27 18:36:41 CEST 2018 : Admin entered the system with password: 1
+Tue Mar 27 18:36:41 CEST 2018 : Succesfuly logged in.
+Tue Mar 27 18:40:06 CEST 2018 : System was started
+Tue Mar 27 18:40:10 CEST 2018 : Anders entered the system with password: 7894
+Tue Mar 27 18:40:10 CEST 2018 : Succesfuly logged in.
+Tue Mar 27 18:40:13 CEST 2018 : Anders succesfuly created a washcard
+Tue Mar 27 18:40:16 CEST 2018 : Anders transfered: 850.0 to Anders's washcard.
+Tue Mar 27 18:40:18 CEST 2018 : Car was washed with "Bad wash"
+Tue Mar 27 18:40:19 CEST 2018 : Car was washed with "Good wash"
+Tue Mar 27 18:40:19 CEST 2018 : Car was washed with "Bad wash"
+Tue Mar 27 18:40:20 CEST 2018 : Car was washed with "Super wash"
+Tue Mar 27 18:40:20 CEST 2018 : Car was washed with "Bad wash"
+Tue Mar 27 18:40:21 CEST 2018 : Not enough funds for the "Good wash"
+Tue Mar 27 18:40:22 CEST 2018 : Anders logged out
+Tue Mar 27 18:40:23 CEST 2018 : System was started
+Tue Mar 27 18:40:26 CEST 2018 : Admin entered the system with password: 1
+Tue Mar 27 18:40:26 CEST 2018 : Succesfuly logged in.
+Tue Mar 27 18:41:54 CEST 2018 : System was started
+Tue Mar 27 18:41:58 CEST 2018 : Admin entered the system with password: 1
+Tue Mar 27 18:41:58 CEST 2018 : Succesfuly logged in.
+Tue Mar 27 18:42:00 CEST 2018 : Admin succesfuly created a washcard
+Tue Mar 27 18:42:03 CEST 2018 : Admin transfered: 850.0 to Admin's washcard.
+Tue Mar 27 18:42:06 CEST 2018 : Car was washed with "Good wash"
+Tue Mar 27 18:42:07 CEST 2018 : Car was washed with "Bad wash"
+Tue Mar 27 18:42:07 CEST 2018 : Admin did something wrong.
+Tue Mar 27 18:42:07 CEST 2018 : Car was washed with "Bad wash"
+Tue Mar 27 18:42:08 CEST 2018 : Car was washed with "Good wash"
+Tue Mar 27 18:42:09 CEST 2018 : Car was washed with "Bad wash"
+Tue Mar 27 18:42:13 CEST 2018 : Car was washed with "Bad wash"
+Tue Mar 27 18:42:13 CEST 2018 : Not enough funds for the "bad wash"
+Tue Mar 27 18:43:00 CEST 2018 : System was started
+Tue Mar 27 18:43:03 CEST 2018 : Admin entered the system with password: 1
+Tue Mar 27 18:43:03 CEST 2018 : Succesfuly logged in.
