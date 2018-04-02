@@ -579,3 +579,407 @@ Fri Mar 30 21:07:06 CEST 2018 : Succesfuly logged in.
 Fri Mar 30 21:07:15 CEST 2018 : Admin transfered: 100.0 to Admin's washcard.
 Fri Mar 30 21:07:18 CEST 2018 : Car was washed with "Bad wash"
 Fri Mar 30 21:07:25 CEST 2018 : Admin logged out.
+Sun Apr 01 16:28:43 CEST 2018 : System was started
+Sun Apr 01 16:29:08 CEST 2018 : Admin entered the system with password: 1
+Sun Apr 01 16:29:08 CEST 2018 : Succesfuly logged in.
+Sun Apr 01 16:30:01 CEST 2018 : System was started
+Sun Apr 01 16:30:10 CEST 2018 : Admin entered the system with password: 1
+Sun Apr 01 16:30:10 CEST 2018 : Succesfuly logged in.
+Sun Apr 01 16:30:20 CEST 2018 : Admin succesfuly created a washcard
+Sun Apr 01 16:30:26 CEST 2018 : Not enough funds for the "bad wash"
+Sun Apr 01 16:30:57 CEST 2018 : Admin transfered: 500.0 to Admin's washcard.
+Sun Apr 01 16:31:07 CEST 2018 : Car was washed with "Bad wash"
+Sun Apr 01 16:31:22 CEST 2018 : Car was washed with "Bad wash"
+Sun Apr 01 16:37:06 CEST 2018 : Admin logged out.
+Sun Apr 01 16:44:09 CEST 2018 : System was started
+Sun Apr 01 16:44:14 CEST 2018 : Admin entered the system with password: 1
+Sun Apr 01 16:44:14 CEST 2018 : Succesfuly logged in.
+Sun Apr 01 16:44:58 CEST 2018 : Admin failed to deposit money on his/hers washcard, due to insufficient funds.
+Sun Apr 01 16:45:04 CEST 2018 : Admin transfered: 200.0 to Admin's washcard.
+Sun Apr 01 16:45:58 CEST 2018 : System was started
+Sun Apr 01 16:46:03 CEST 2018 : thomas entered the system with password: 1234
+Sun Apr 01 16:46:03 CEST 2018 : Invalid username or password
+Sun Apr 01 16:46:03 CEST 2018 : System was started
+Sun Apr 01 16:46:07 CEST 2018 : Thomas entered the system with password: 1234
+Sun Apr 01 16:46:07 CEST 2018 : Succesfuly logged in.
+Sun Apr 01 16:46:19 CEST 2018 : System was started
+Sun Apr 01 16:46:20 CEST 2018 : Attempt to create a new account and password
+Sun Apr 01 16:46:23 CEST 2018 : New user created: Haulik
+Sun Apr 01 16:46:25 CEST 2018 : Haulik created a password :1234
+Sun Apr 01 16:46:26 CEST 2018 : New user created
+Sun Apr 01 16:46:31 CEST 2018 : Haulik entered the system with password: 1234
+Sun Apr 01 16:46:31 CEST 2018 : Succesfuly logged in.
+Sun Apr 01 16:46:58 CEST 2018 : System was started
+Sun Apr 01 16:47:05 CEST 2018 : Thomas entered the system with password: 1234
+Sun Apr 01 16:47:05 CEST 2018 : Succesfuly logged in.
+Sun Apr 01 16:48:22 CEST 2018 : System was started
+Sun Apr 01 16:48:29 CEST 2018 : Admin entered the system with password: 1
+Sun Apr 01 16:48:29 CEST 2018 : Succesfuly logged in.
+Sun Apr 01 16:49:01 CEST 2018 : System was started
+Sun Apr 01 16:49:07 CEST 2018 : Admin entered the system with password: 1234
+Sun Apr 01 16:49:07 CEST 2018 : Invalid username or password
+Sun Apr 01 16:49:07 CEST 2018 : System was started
+Sun Apr 01 16:49:24 CEST 2018 : Admin entered the system with password: 1
+Sun Apr 01 16:49:24 CEST 2018 : Succesfuly logged in.
+Sun Apr 01 16:54:26 CEST 2018 : System was started
+Sun Apr 01 16:54:30 CEST 2018 : Admin entered the system with password: 1
+Sun Apr 01 16:54:30 CEST 2018 : Succesfuly logged in.
+Sun Apr 01 16:55:03 CEST 2018 : Admin transfered: 100.0 to Admin's washcard.
+Sun Apr 01 16:55:08 CEST 2018 : Car was washed with "Bad wash"
+Sun Apr 01 16:56:48 CEST 2018 : System was started
+Sun Apr 01 16:56:50 CEST 2018 : System was started
+Sun Apr 01 16:56:53 CEST 2018 : Admin entered the system with password: 1
+Sun Apr 01 16:56:53 CEST 2018 : Succesfuly logged in.
+Sun Apr 01 16:58:31 CEST 2018 : System was started
+Sun Apr 01 16:58:36 CEST 2018 : Admin entered the system with password: 1
+Sun Apr 01 16:58:36 CEST 2018 : Succesfuly logged in.
+Sun Apr 01 17:00:06 CEST 2018 : System was started
+Sun Apr 01 17:00:11 CEST 2018 : Admin entered the system with password: 1
+Sun Apr 01 17:00:11 CEST 2018 : Succesfuly logged in.
+Sun Apr 01 17:01:58 CEST 2018 : System was started
+Sun Apr 01 17:02:02 CEST 2018 : Admin entered the system with password: 1
+Sun Apr 01 17:02:02 CEST 2018 : Succesfuly logged in.
+Sun Apr 01 17:02:41 CEST 2018 : System was started
+Sun Apr 01 17:02:46 CEST 2018 : Admin entered the system with password: 1
+Sun Apr 01 17:02:46 CEST 2018 : Succesfuly logged in.
+Sun Apr 01 17:03:41 CEST 2018 : System was started
+Sun Apr 01 17:03:45 CEST 2018 : Admin entered the system with password: 1
+Sun Apr 01 17:03:45 CEST 2018 : Succesfuly logged in.
+Sun Apr 01 17:04:22 CEST 2018 : System was started
+Sun Apr 01 17:04:31 CEST 2018 : Admin entered the system with password: 1
+Sun Apr 01 17:04:31 CEST 2018 : Succesfuly logged in.
+Sun Apr 01 17:04:53 CEST 2018 : System was started
+Sun Apr 01 17:04:57 CEST 2018 : Admin entered the system with password: 1
+Sun Apr 01 17:04:57 CEST 2018 : Succesfuly logged in.
+Sun Apr 01 17:05:19 CEST 2018 : System was started
+Sun Apr 01 17:05:22 CEST 2018 : User entered wrong input, most likely Jarl
+Sun Apr 01 17:05:26 CEST 2018 : Admin entered the system with password: 1
+Sun Apr 01 17:05:26 CEST 2018 : Succesfuly logged in.
+Sun Apr 01 17:06:24 CEST 2018 : System was started
+Sun Apr 01 17:06:26 CEST 2018 : User entered wrong input, most likely Jarl
+Sun Apr 01 17:06:30 CEST 2018 : Admin entered the system with password: 1
+Sun Apr 01 17:06:30 CEST 2018 : Succesfuly logged in.
+Sun Apr 01 17:07:07 CEST 2018 : System was started
+Sun Apr 01 17:07:11 CEST 2018 : Admin entered the system with password: 1
+Sun Apr 01 17:07:11 CEST 2018 : Succesfuly logged in.
+Sun Apr 01 17:07:53 CEST 2018 : System was started
+Sun Apr 01 17:07:57 CEST 2018 : Admin entered the system with password: 1
+Sun Apr 01 17:07:57 CEST 2018 : Succesfuly logged in.
+Sun Apr 01 17:10:00 CEST 2018 : System was started
+Sun Apr 01 17:10:04 CEST 2018 : Admin entered the system with password: 1
+Sun Apr 01 17:10:04 CEST 2018 : Succesfuly logged in.
+Sun Apr 01 17:10:27 CEST 2018 : System was started
+Sun Apr 01 17:10:30 CEST 2018 : Admin entered the system with password: 1
+Sun Apr 01 17:10:30 CEST 2018 : Succesfuly logged in.
+Sun Apr 01 17:13:18 CEST 2018 : System was started
+Sun Apr 01 17:13:24 CEST 2018 : Admin entered the system with password: 1
+Sun Apr 01 17:13:24 CEST 2018 : Succesfuly logged in.
+Sun Apr 01 17:14:46 CEST 2018 : System was started
+Sun Apr 01 17:14:50 CEST 2018 : Admin entered the system with password: 1
+Sun Apr 01 17:14:50 CEST 2018 : Succesfuly logged in.
+Sun Apr 01 17:15:23 CEST 2018 : System was started
+Sun Apr 01 17:15:26 CEST 2018 : Admin entered the system with password: 1
+Sun Apr 01 17:15:26 CEST 2018 : Succesfuly logged in.
+Sun Apr 01 17:16:51 CEST 2018 : System was started
+Sun Apr 01 17:16:56 CEST 2018 : Admin entered the system with password: 1
+Sun Apr 01 17:16:56 CEST 2018 : Succesfuly logged in.
+Sun Apr 01 17:22:29 CEST 2018 : System was started
+Sun Apr 01 17:22:33 CEST 2018 : Admin entered the system with password: 1
+Sun Apr 01 17:22:33 CEST 2018 : Succesfuly logged in.
+Sun Apr 01 17:22:53 CEST 2018 : System was started
+Sun Apr 01 17:23:07 CEST 2018 : System was started
+Sun Apr 01 17:23:10 CEST 2018 : Admin entered the system with password: 1
+Sun Apr 01 17:23:10 CEST 2018 : Succesfuly logged in.
+Sun Apr 01 17:24:03 CEST 2018 : System was started
+Sun Apr 01 17:24:06 CEST 2018 : Admin entered the system with password: 1
+Sun Apr 01 17:24:06 CEST 2018 : Succesfuly logged in.
+Sun Apr 01 18:07:52 CEST 2018 : System was started
+Sun Apr 01 18:07:55 CEST 2018 : Admin entered the system with password: 1
+Sun Apr 01 18:07:55 CEST 2018 : Succesfuly logged in.
+Sun Apr 01 18:08:21 CEST 2018 : System was started
+Sun Apr 01 18:08:25 CEST 2018 : Admin entered the system with password: 1
+Sun Apr 01 18:08:25 CEST 2018 : Succesfuly logged in.
+Sun Apr 01 18:13:31 CEST 2018 : System was started
+Sun Apr 01 18:13:35 CEST 2018 : Admin entered the system with password: 1
+Sun Apr 01 18:13:35 CEST 2018 : Succesfuly logged in.
+Sun Apr 01 18:14:21 CEST 2018 : System was started
+Sun Apr 01 18:14:24 CEST 2018 : Admin entered the system with password: 1
+Sun Apr 01 18:14:24 CEST 2018 : Succesfuly logged in.
+Sun Apr 01 18:15:12 CEST 2018 : System was started
+Sun Apr 01 18:15:15 CEST 2018 : Admin entered the system with password: 1
+Sun Apr 01 18:15:15 CEST 2018 : Succesfuly logged in.
+Sun Apr 01 18:15:44 CEST 2018 : System was started
+Sun Apr 01 18:15:48 CEST 2018 : Admin entered the system with password: 1
+Sun Apr 01 18:15:48 CEST 2018 : Succesfuly logged in.
+Sun Apr 01 18:16:50 CEST 2018 : System was started
+Sun Apr 01 18:16:54 CEST 2018 : Admin entered the system with password: 1
+Sun Apr 01 18:16:54 CEST 2018 : Succesfuly logged in.
+Sun Apr 01 19:48:47 CEST 2018 : System was started
+Sun Apr 01 19:48:59 CEST 2018 : Thomas entered the system with password: 1234
+Sun Apr 01 19:48:59 CEST 2018 : Succesfuly logged in.
+Sun Apr 01 19:49:56 CEST 2018 : Thomas transfered: 464.0 to Thomas's washcard.
+Sun Apr 01 19:51:01 CEST 2018 : Car was washed with "Super wash"
+Sun Apr 01 21:32:55 CEST 2018 : System was started
+Sun Apr 01 21:33:04 CEST 2018 : Thomas entered the system with password: 1234
+Sun Apr 01 21:33:04 CEST 2018 : Succesfuly logged in.
+Sun Apr 01 21:33:11 CEST 2018 : Thomas did something wrong.
+Sun Apr 01 21:34:23 CEST 2018 : System was started
+Sun Apr 01 21:34:48 CEST 2018 : Admin entered the system with password: 1234
+Sun Apr 01 21:34:48 CEST 2018 : Invalid username or password
+Sun Apr 01 21:34:48 CEST 2018 : System was started
+Sun Apr 01 21:34:58 CEST 2018 : Admin entered the system with password: 1
+Sun Apr 01 21:34:58 CEST 2018 : Succesfuly logged in.
+Sun Apr 01 21:35:16 CEST 2018 : Not enough funds for the "bad wash"
+Sun Apr 01 21:35:22 CEST 2018 : Admin transfered: 100.0 to Admin's washcard.
+Sun Apr 01 21:35:24 CEST 2018 : Car was washed with "Bad wash"
+Sun Apr 01 21:38:13 CEST 2018 : System was started
+Sun Apr 01 21:44:39 CEST 2018 : System was started
+Sun Apr 01 21:49:11 CEST 2018 : System was started
+Sun Apr 01 21:49:33 CEST 2018 : Admin entered the system with password: 1
+Sun Apr 01 21:49:33 CEST 2018 : Succesfuly logged in.
+Sun Apr 01 21:57:19 CEST 2018 : System was started
+Sun Apr 01 21:57:23 CEST 2018 : Admin entered the system with password: 1
+Sun Apr 01 21:57:23 CEST 2018 : Succesfuly logged in.
+Sun Apr 01 22:07:33 CEST 2018 : System was started
+Sun Apr 01 22:07:36 CEST 2018 : Admin entered the system with password: 1
+Sun Apr 01 22:07:36 CEST 2018 : Succesfuly logged in.
+Sun Apr 01 22:10:23 CEST 2018 : System was started
+Sun Apr 01 22:10:28 CEST 2018 : System was started
+Sun Apr 01 22:11:05 CEST 2018 : System was started
+Sun Apr 01 22:13:19 CEST 2018 : System was started
+Sun Apr 01 22:14:00 CEST 2018 : System was started
+Sun Apr 01 22:14:04 CEST 2018 : Admin entered the system with password: 1
+Sun Apr 01 22:14:04 CEST 2018 : Succesfuly logged in.
+Sun Apr 01 22:15:48 CEST 2018 : System was started
+Sun Apr 01 22:22:46 CEST 2018 : System was started
+Sun Apr 01 22:22:50 CEST 2018 : Admin entered the system with password: 1
+Sun Apr 01 22:22:50 CEST 2018 : Succesfuly logged in.
+Sun Apr 01 22:22:53 CEST 2018 : Customer@1540e19d Analyzed the cars dirtyness
+Sun Apr 01 22:23:18 CEST 2018 : Admin logged out
+Sun Apr 01 22:30:08 CEST 2018 : System was started
+Sun Apr 01 22:30:13 CEST 2018 : Admin entered the system with password: 1
+Sun Apr 01 22:30:13 CEST 2018 : Succesfuly logged in.
+Sun Apr 01 22:30:26 CEST 2018 : Admin Analyzed the cars dirtyness
+Sun Apr 01 22:31:32 CEST 2018 : System was started
+Sun Apr 01 22:31:37 CEST 2018 : Thomas entered the system with password: 1234
+Sun Apr 01 22:31:37 CEST 2018 : Succesfuly logged in.
+Sun Apr 01 22:31:40 CEST 2018 : Thomas Analyzed the cars dirtyness
+Sun Apr 01 22:32:30 CEST 2018 : System was started
+Sun Apr 01 22:32:33 CEST 2018 : Admin entered the system with password: 1
+Sun Apr 01 22:32:33 CEST 2018 : Succesfuly logged in.
+Sun Apr 01 22:32:36 CEST 2018 : Admin Analyzed the cars dirtyness
+Sun Apr 01 22:33:17 CEST 2018 : System was started
+Sun Apr 01 22:33:21 CEST 2018 : Admin entered the system with password: 1
+Sun Apr 01 22:33:21 CEST 2018 : Succesfuly logged in.
+Sun Apr 01 22:33:26 CEST 2018 : Admin Analyzed the cars dirtyness
+Sun Apr 01 22:34:40 CEST 2018 : System was started
+Sun Apr 01 22:34:45 CEST 2018 : Admin entered the system with password: 1
+Sun Apr 01 22:34:45 CEST 2018 : Succesfuly logged in.
+Sun Apr 01 22:34:48 CEST 2018 : Admin Analyzed the cars dirtyness
+Sun Apr 01 22:55:38 CEST 2018 : System was started
+Sun Apr 01 22:55:42 CEST 2018 : Admin entered the system with password: 1
+Sun Apr 01 22:55:42 CEST 2018 : Succesfuly logged in.
+Sun Apr 01 22:55:45 CEST 2018 : Admin Analyzed the cars dirtyness
+Sun Apr 01 23:08:29 CEST 2018 : System was started
+Sun Apr 01 23:08:41 CEST 2018 : Admin entered the system with password: 1
+Sun Apr 01 23:08:41 CEST 2018 : Succesfuly logged in.
+Sun Apr 01 23:16:03 CEST 2018 : System was started
+Sun Apr 01 23:16:59 CEST 2018 : null entered the system with password: null
+Sun Apr 01 23:16:59 CEST 2018 : Invalid username or password
+Sun Apr 01 23:16:59 CEST 2018 : System was started
+Sun Apr 01 23:17:01 CEST 2018 : System was started
+Sun Apr 01 23:19:02 CEST 2018 : System was started
+Sun Apr 01 23:19:12 CEST 2018 : Admin entered the system with password: 1
+Sun Apr 01 23:19:12 CEST 2018 : Succesfuly logged in.
+Sun Apr 01 23:19:27 CEST 2018 : Admin transfered: 200.0 to Admin's washcard.
+Sun Apr 01 23:19:37 CEST 2018 : Admin Analyzed the cars dirtyness
+Sun Apr 01 23:20:03 CEST 2018 : Car was washed with "Good wash"
+Sun Apr 01 23:38:31 CEST 2018 : System was started
+Sun Apr 01 23:52:59 CEST 2018 : System was started
+Sun Apr 01 23:53:05 CEST 2018 : Admin entered the system with password: 1
+Sun Apr 01 23:53:05 CEST 2018 : Succesfuly logged in.
+Sun Apr 01 23:58:24 CEST 2018 : System was started
+Sun Apr 01 23:58:27 CEST 2018 : Admin entered the system with password: 1
+Sun Apr 01 23:58:27 CEST 2018 : Succesfuly logged in.
+Mon Apr 02 00:00:43 CEST 2018 : System was started
+Mon Apr 02 00:00:48 CEST 2018 : Admin entered the system with password: 1
+Mon Apr 02 00:00:48 CEST 2018 : Succesfuly logged in.
+Mon Apr 02 00:02:07 CEST 2018 : System was started
+Mon Apr 02 00:02:11 CEST 2018 : Admin entered the system with password: 1
+Mon Apr 02 00:02:12 CEST 2018 : Succesfuly logged in.
+Mon Apr 02 00:02:26 CEST 2018 : Admin failed to deposit money on his/hers washcard, due to insufficient funds.
+Mon Apr 02 00:03:03 CEST 2018 : System was started
+Mon Apr 02 00:03:07 CEST 2018 : Admin entered the system with password: 1
+Mon Apr 02 00:03:07 CEST 2018 : Succesfuly logged in.
+Mon Apr 02 00:03:14 CEST 2018 : Admin logged out.
+Mon Apr 02 00:03:21 CEST 2018 : System was started
+Mon Apr 02 00:03:26 CEST 2018 : Admin entered the system with password: 1
+Mon Apr 02 00:03:26 CEST 2018 : Succesfuly logged in.
+Mon Apr 02 00:03:30 CEST 2018 : Admin transfered: 1000.0 to Admin's washcard.
+Mon Apr 02 00:03:34 CEST 2018 : Admin Analyzed the cars dirtyness
+Mon Apr 02 00:03:42 CEST 2018 : Car was washed with "Super wash"
+Mon Apr 02 00:03:48 CEST 2018 : Admin logged out.
+Mon Apr 02 00:04:12 CEST 2018 : System was started
+Mon Apr 02 00:04:20 CEST 2018 : Admin entered the system with password: 1
+Mon Apr 02 00:04:20 CEST 2018 : Succesfuly logged in.
+Mon Apr 02 00:04:24 CEST 2018 : Admin transfered: 200.0 to Admin's washcard.
+Mon Apr 02 00:04:28 CEST 2018 : Not enough funds for the "Super wash"
+Mon Apr 02 00:04:32 CEST 2018 : Admin logged out.
+Mon Apr 02 00:04:32 CEST 2018 : System was started
+Mon Apr 02 00:04:37 CEST 2018 : Thomas entered the system with password: 1324
+Mon Apr 02 00:04:37 CEST 2018 : Invalid username or password
+Mon Apr 02 00:04:37 CEST 2018 : System was started
+Mon Apr 02 00:04:47 CEST 2018 : Thomas entered the system with password: 1234
+Mon Apr 02 00:04:47 CEST 2018 : Succesfuly logged in.
+Mon Apr 02 00:05:15 CEST 2018 : Thomas logged out.
+Mon Apr 02 00:05:18 CEST 2018 : System was started
+Mon Apr 02 00:05:22 CEST 2018 : Admin entered the system with password: 1
+Mon Apr 02 00:05:22 CEST 2018 : Succesfuly logged in.
+Mon Apr 02 00:05:31 CEST 2018 : Admin transfered: 464564.0 to Admin's washcard.
+Mon Apr 02 00:06:42 CEST 2018 : System was started
+Mon Apr 02 00:06:44 CEST 2018 : Attempt to create a new account and password
+Mon Apr 02 00:06:46 CEST 2018 : New user created: Haulik
+Mon Apr 02 00:06:47 CEST 2018 : Haulik created a password :1234
+Mon Apr 02 00:06:50 CEST 2018 : New user created
+Mon Apr 02 00:06:55 CEST 2018 : Haulik entered the system with password: 1234
+Mon Apr 02 00:06:55 CEST 2018 : Succesfuly logged in.
+Mon Apr 02 00:07:06 CEST 2018 : Haulik transfered: 100.0 to Haulik's washcard.
+Mon Apr 02 00:07:13 CEST 2018 : Car was washed with "Bad wash"
+Mon Apr 02 00:07:18 CEST 2018 : Haulik Analyzed the cars dirtyness
+Mon Apr 02 00:40:10 CEST 2018 : System was started
+Mon Apr 02 00:42:02 CEST 2018 : System was started
+Mon Apr 02 00:42:18 CEST 2018 : User entered wrong input, most likely Jarl
+Mon Apr 02 00:42:43 CEST 2018 : l entered the system with password: l
+Mon Apr 02 00:42:43 CEST 2018 : Invalid username or password
+Mon Apr 02 00:42:43 CEST 2018 : System was started
+Mon Apr 02 00:59:14 CEST 2018 : System was started
+Mon Apr 02 00:59:25 CEST 2018 : Attempt to create a new account and password
+Mon Apr 02 00:59:27 CEST 2018 : New user created: Haulik
+Mon Apr 02 00:59:29 CEST 2018 : Haulik created a password :1234
+Mon Apr 02 00:59:30 CEST 2018 : New user created
+Mon Apr 02 00:59:37 CEST 2018 : Haulik entered the system with password: 1234
+Mon Apr 02 00:59:37 CEST 2018 : Succesfuly logged in.
+Mon Apr 02 01:11:24 CEST 2018 : System was started
+Mon Apr 02 01:11:34 CEST 2018 : null entered the system with password: null
+Mon Apr 02 01:11:34 CEST 2018 : Invalid username or password
+Mon Apr 02 01:11:34 CEST 2018 : System was started
+Mon Apr 02 01:11:37 CEST 2018 : System was started
+Mon Apr 02 01:11:41 CEST 2018 : Admin entered the system with password: 1
+Mon Apr 02 01:11:41 CEST 2018 : Succesfuly logged in.
+Mon Apr 02 01:11:47 CEST 2018 : Admin transfered: 500.0 to Admin's washcard.
+Mon Apr 02 01:11:53 CEST 2018 : Car was washed with "Super wash"
+Mon Apr 02 01:12:01 CEST 2018 : Admin logged out.
+Mon Apr 02 01:12:01 CEST 2018 : System was started
+Mon Apr 02 01:12:10 CEST 2018 : Thomas entered the system with password: 1234
+Mon Apr 02 01:12:10 CEST 2018 : Succesfuly logged in.
+Mon Apr 02 01:12:19 CEST 2018 : Not enough funds for the "Super wash"
+Mon Apr 02 01:13:00 CEST 2018 : Not enough funds for the "bad wash"
+Mon Apr 02 01:13:07 CEST 2018 : Thomas transfered: 100.0 to Thomas's washcard.
+Mon Apr 02 01:13:09 CEST 2018 : Car was washed with "Bad wash"
+Mon Apr 02 01:14:51 CEST 2018 : System was started
+Mon Apr 02 01:14:55 CEST 2018 : Thomas entered the system with password: 1234
+Mon Apr 02 01:14:55 CEST 2018 : Succesfuly logged in.
+Mon Apr 02 01:14:57 CEST 2018 : Not enough funds for the "bad wash"
+Mon Apr 02 01:15:02 CEST 2018 : Thomas transfered: 100.0 to Thomas's washcard.
+Mon Apr 02 01:15:04 CEST 2018 : Car was washed with "Bad wash"
+Mon Apr 02 11:12:53 CEST 2018 : System was started
+Mon Apr 02 11:13:10 CEST 2018 : Thomas entered the system with password: 1234
+Mon Apr 02 11:13:10 CEST 2018 : Succesfuly logged in.
+Mon Apr 02 11:13:36 CEST 2018 : Thomas transfered: 500.0 to Thomas's washcard.
+Mon Apr 02 11:13:41 CEST 2018 : Car was washed with "Bad wash"
+Mon Apr 02 11:13:49 CEST 2018 : Thomas Analyzed the cars dirtyness
+Mon Apr 02 11:18:16 CEST 2018 : System was started
+Mon Apr 02 11:18:28 CEST 2018 : Admin entered the system with password: 1
+Mon Apr 02 11:18:28 CEST 2018 : Succesfuly logged in.
+Mon Apr 02 11:19:03 CEST 2018 : Admin did something wrong.
+Mon Apr 02 11:32:19 CEST 2018 : System was started
+Mon Apr 02 11:32:36 CEST 2018 : System was started
+Mon Apr 02 11:32:39 CEST 2018 : Admin entered the system with password: 1
+Mon Apr 02 11:32:39 CEST 2018 : Succesfuly logged in.
+Mon Apr 02 11:38:21 CEST 2018 : System was started
+Mon Apr 02 11:38:25 CEST 2018 : Admin entered the system with password: 1
+Mon Apr 02 11:38:25 CEST 2018 : Succesfuly logged in.
+Mon Apr 02 11:50:32 CEST 2018 : System was started
+Mon Apr 02 11:50:36 CEST 2018 : Admin entered the system with password: 1
+Mon Apr 02 11:50:36 CEST 2018 : Succesfuly logged in.
+Mon Apr 02 11:52:19 CEST 2018 : Admin transfered: 21.0 to Admin's washcard.
+Mon Apr 02 11:53:34 CEST 2018 : System was started
+Mon Apr 02 11:53:39 CEST 2018 : Admin entered the system with password: 1
+Mon Apr 02 11:53:39 CEST 2018 : Succesfuly logged in.
+Mon Apr 02 11:54:46 CEST 2018 : System was started
+Mon Apr 02 11:54:52 CEST 2018 : Admin entered the system with password: 1
+Mon Apr 02 11:54:52 CEST 2018 : Succesfuly logged in.
+Mon Apr 02 12:20:09 CEST 2018 : System was started
+Mon Apr 02 12:20:15 CEST 2018 : Admin entered the system with password: 1
+Mon Apr 02 12:20:15 CEST 2018 : Succesfuly logged in.
+Mon Apr 02 12:21:43 CEST 2018 : Admin transfered: 201.0 to Admin's washcard.
+Mon Apr 02 12:25:48 CEST 2018 : System was started
+Mon Apr 02 12:26:04 CEST 2018 : Admin entered the system with password: 1
+Mon Apr 02 12:26:04 CEST 2018 : Succesfuly logged in.
+Mon Apr 02 12:26:14 CEST 2018 : Admin transfered: 201.0 to Admin's washcard.
+Mon Apr 02 12:28:27 CEST 2018 : Admin transfered: 201.0 to Admin's washcard.
+Mon Apr 02 12:28:35 CEST 2018 : Admin transfered: 999.0 to Admin's washcard.
+Mon Apr 02 12:33:30 CEST 2018 : System was started
+Mon Apr 02 12:33:34 CEST 2018 : ADmin entered the system with password: 1
+Mon Apr 02 12:33:34 CEST 2018 : Invalid username or password
+Mon Apr 02 12:33:34 CEST 2018 : System was started
+Mon Apr 02 12:33:37 CEST 2018 : Admin entered the system with password: 1
+Mon Apr 02 12:33:37 CEST 2018 : Succesfuly logged in.
+Mon Apr 02 12:33:57 CEST 2018 : System was started
+Mon Apr 02 12:34:14 CEST 2018 : Admin entered the system with password: 1
+Mon Apr 02 12:34:14 CEST 2018 : Succesfuly logged in.
+Mon Apr 02 12:35:40 CEST 2018 : System was started
+Mon Apr 02 12:35:57 CEST 2018 : Admin entered the system with password: 1
+Mon Apr 02 12:35:57 CEST 2018 : Succesfuly logged in.
+Mon Apr 02 12:36:13 CEST 2018 : Admin transfered: 200.0 to Admin's washcard.
+Mon Apr 02 12:48:12 CEST 2018 : System was started
+Mon Apr 02 12:48:16 CEST 2018 : Admin entered the system with password: 1
+Mon Apr 02 12:48:16 CEST 2018 : Succesfuly logged in.
+Mon Apr 02 12:48:23 CEST 2018 : Admin transfered: 1000.0 to Admin's washcard.
+Mon Apr 02 12:49:08 CEST 2018 : Admin transfered: 200.0 to Admin's washcard.
+Mon Apr 02 12:54:34 CEST 2018 : System was started
+Mon Apr 02 12:54:38 CEST 2018 : Admin entered the system with password: 1
+Mon Apr 02 12:54:38 CEST 2018 : Succesfuly logged in.
+Mon Apr 02 12:54:49 CEST 2018 : Admin transfered: 1000.0 to Admin's washcard.
+Mon Apr 02 12:55:24 CEST 2018 : System was started
+Mon Apr 02 12:55:26 CEST 2018 : Admin entered the system with password: 1
+Mon Apr 02 12:55:26 CEST 2018 : Succesfuly logged in.
+Mon Apr 02 12:55:29 CEST 2018 : Admin transfered: 1000.0 to Admin's washcard.
+Mon Apr 02 12:56:02 CEST 2018 : Car was washed with "Bad wash"
+Mon Apr 02 12:56:11 CEST 2018 : Admin logged out
+Mon Apr 02 12:56:26 CEST 2018 : System was started
+Mon Apr 02 13:04:36 CEST 2018 : Admin entered the system with password: 1
+Mon Apr 02 13:04:36 CEST 2018 : Succesfuly logged in.
+Mon Apr 02 13:04:55 CEST 2018 : Admin Analyzed the cars dirtyness
+Mon Apr 02 13:06:46 CEST 2018 : Admin transfered: 1000.0 to Admin's washcard.
+Mon Apr 02 13:06:59 CEST 2018 : Car was washed with "Bad wash"
+Mon Apr 02 13:07:13 CEST 2018 : Admin transfered: 1000.0 to Admin's washcard.
+Mon Apr 02 13:07:39 CEST 2018 : System was started
+Mon Apr 02 13:13:27 CEST 2018 : Admin entered the system with password: 1
+Mon Apr 02 13:13:27 CEST 2018 : Succesfuly logged in.
+Mon Apr 02 13:13:31 CEST 2018 : Admin transfered: 1000.0 to Admin's washcard.
+Mon Apr 02 13:15:39 CEST 2018 : System was started
+Mon Apr 02 13:30:55 CEST 2018 : System was started
+Mon Apr 02 13:30:59 CEST 2018 : Admin entered the system with password: 1
+Mon Apr 02 13:30:59 CEST 2018 : Succesfuly logged in.
+Mon Apr 02 13:31:44 CEST 2018 : Admin transfered: 246.0 to Admin's washcard.
+Mon Apr 02 13:31:44 CEST 2018 : Admin deposited: 246.0dkk
+Mon Apr 02 14:37:10 CEST 2018 : System was started
+Mon Apr 02 14:38:19 CEST 2018 : System was started
+Mon Apr 02 14:38:20 CEST 2018 : User entered wrong input, most likely Jarl
+Mon Apr 02 14:38:23 CEST 2018 : Attempt to create a new account and password
+Mon Apr 02 14:38:25 CEST 2018 : New user created: tgf
+Mon Apr 02 14:38:27 CEST 2018 : tgf entered wrong password
+Mon Apr 02 14:38:27 CEST 2018 : Attempt to create a new account and password
+Mon Apr 02 14:38:34 CEST 2018 : System was started
+Mon Apr 02 14:39:29 CEST 2018 : System was started
+Mon Apr 02 14:41:02 CEST 2018 : System was started
+Mon Apr 02 14:41:09 CEST 2018 : Attempt to create a new account and password
+Mon Apr 02 14:41:11 CEST 2018 : New user created: 5
+Mon Apr 02 14:41:12 CEST 2018 : 5 created a password :5
+Mon Apr 02 14:41:13 CEST 2018 : New user created
+Mon Apr 02 16:13:14 CEST 2018 : System was started
+Mon Apr 02 16:13:15 CEST 2018 : Attempt to create a new account and password
+Mon Apr 02 16:13:16 CEST 2018 : New user created: da
+Mon Apr 02 16:13:18 CEST 2018 : da created a password :awd
+Mon Apr 02 16:13:19 CEST 2018 : New user created

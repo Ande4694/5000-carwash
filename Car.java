@@ -1,19 +1,25 @@
+import java.util.Random;
 public class Car{
    private int dirtyness;
+   Random random = new Random();
+   
    
    /// default constructor til snavseet bil
    public Car(){
-      int dirtyness = 200;
-   }
+   int dirtyness = 200;
    
-   // set dirtyness
+   }
+   // set dirtyness. 
    public void setDirt(int dirt){
-      if ((dirtyness+dirt)<0 || (dirtyness+dirt)>=200){
+      dirtyness = random.nextInt(200-35+1)+35;
+      
+      //HVAD BRUGES IF/ELSE TIL???
+      /*if ((dirtyness+dirt)<0 || (dirtyness+dirt)>=200){
       dirtyness+=dirt;
       System.out.println("New dirt level is:+ "+dirtyness);
       } else {
       System.out.println("You can max add "+(dirtyness-200)+" to dirt level");
-      }
+      }*/
    }
    
    // get dirt

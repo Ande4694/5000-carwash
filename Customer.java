@@ -1,4 +1,5 @@
 import java.io.File;
+import java.util.Random;
 public class Customer{
 
    // han har :
@@ -13,16 +14,18 @@ public class Customer{
    Car customerCar = new Car();
    Logger log1 = new Logger("Carwash_log.txt");
    Logger log2 = new Logger("Receipt.txt");
+   Random r = new Random();
    
-   // default constructor  til customer så de har 1000 dkk
+   // default constructor  til customer så de har 1000 dkk (BRUGER VI DET HER???)
    public Customer(){
-      creditCard[0]=1000;
+      creditCard[0]=r.nextInt(10000-200)+200;
    }
    
    Customer (String username, String password){
         this.username = username;
         this.password = password;
-        creditCard[0]=1000;
+        creditCard[0]=r.nextInt(10000-200)+200;
+        customerCar.setDirt(1);
    }
    
    public String getUsername(){
@@ -126,7 +129,10 @@ public class Customer{
    public double getCreditCard(){
       return creditCard[0];
    }
-   
+   // set dankort
+   public void setCreditCard(double money){
+      creditCard[0]=money;
+   }
    // get washcard
    public double getWashcard(){
       return washcard[0];
