@@ -40,7 +40,7 @@ public String read;
 
    }
    
-   ///// udskift "hentData" med "readFromFile"////
+   ///// udskift "hentData" med "readFile"////
    ///
    ////
    public int[] hentData(){
