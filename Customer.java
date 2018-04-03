@@ -25,7 +25,7 @@ public class Customer{
         this.username = username;
         this.password = password;
         creditCard[0]=r.nextInt(10000-200)+200;
-        customerCar.setDirt(1);
+        customerCar.setDirt();
    }
    
    public String getUsername(){

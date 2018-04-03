@@ -10,16 +10,8 @@ public class Car{
    
    }
    // set dirtyness. 
-   public void setDirt(int dirt){
+   public void setDirt(){
       dirtyness = random.nextInt(200-35+1)+35;
-      
-      //HVAD BRUGES IF/ELSE TIL???
-      /*if ((dirtyness+dirt)<0 || (dirtyness+dirt)>=200){
-      dirtyness+=dirt;
-      System.out.println("New dirt level is:+ "+dirtyness);
-      } else {
-      System.out.println("You can max add "+(dirtyness-200)+" to dirt level");
-      }*/
    }
    
    // get dirt
@@ -40,7 +32,7 @@ public class Car{
       } else if(dirtyness>100 && dirtyness<170){
          System.out.println("Your car is dirty..");
       } else if(dirtyness>50 && dirtyness<=100){
-         System.out.println("Your car a little dirty..\n");
+         System.out.println("Your car is a little dirty..\n");
       } else if(dirtyness<=50){
          System.out.println("Your car is clean!\n");
       }

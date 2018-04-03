@@ -4,17 +4,12 @@ import java.util.Date;
 public class Logger {
      
     private File logFile;
-     
-    public Logger() {
-    }
+
      
     public Logger(String fileName) {
         logFile = new File(fileName);
     }
-     
-    public Logger(File f) {
-        logFile = f;
-    }
+    
      
     public void log(String s) {
          

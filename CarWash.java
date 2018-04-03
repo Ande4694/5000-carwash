@@ -9,13 +9,20 @@ public class CarWash{
    
         String username;
         String password;
+      
+        
+        /// tilføj y.hentData();
+        ////////
+        ////
         int totalSpend = 0;
         int washBad = 0;
         int washGood = 0;
         int washSuper = 0;
         int carsWashed = 0;
         int averageSpend = 0;
-        
+        y.hentData();
+        System.out.println(Arrays.toString(y.hentData()));
+
 
         // Used to hold the instance of a user who successfully logged in
         Customer loggedInUser = null;
@@ -83,7 +90,7 @@ public class CarWash{
          System.out.println("Password did not match, try again.");
          log1.log(Username+" entered wrong password");
           }
-         //listOfCustomers[5] = new Customer(Username,Password);
+         
          }
          
          
@@ -221,12 +228,14 @@ public class CarWash{
                                  choice = input.nextInt();
                                  switch(choice) {
                              
-                                 //MISSING RECEIPT!!!
+                                
                                  case 1: 
-                                 System.out.println("printing...\nSorry out off papper\n");
+                                 System.out.println("Receipt of purchase:\n1x Gustav special \"bad wash\"\nPrice: 100 dkk.");
+                                 log1.log(loggedInUser.getUsername()+" Printed out a Receipt");
                                  break;
                              
                                  case 2:
+                                 log1.log(loggedInUser.getUsername()+" did not print a receipt.");
                                  break;
                                 }}
 
@@ -262,7 +271,7 @@ public class CarWash{
                              
                                    //MISSING RECEIPT!!!
                                    case 1: 
-                                   System.out.println("printing...\nSorry out off paper\n");
+                                   System.out.println("Receipt of purchase:\n1x Gustav special \"good wash\"\nPrice: 200 dkk.");
                                    log1.log(loggedInUser.getUsername()+" Printed out a Receipt");
                                    break;
                              
@@ -302,12 +311,14 @@ public class CarWash{
                                    choice = input.nextInt();
                                    switch(choice) {
                              
-                                   //MISSING RECEIPT!!!
+                                   
                                    case 1: 
-                                   System.out.println("printing...\nSorry out off paper\n");
+                                   System.out.println("Receipt of purchase:\n1x Gustav special \"Super wash\"\nPrice: 300 dkk.");
+                                   log1.log(loggedInUser.getUsername()+" Printed out a Receipt");
                                    break;
                              
                                    case 2:
+                                   log1.log(loggedInUser.getUsername()+" Did not print out a Receipt");
                                    break;
                                    }
                                    }
@@ -326,7 +337,7 @@ public class CarWash{
                   case 4:
                   System.out.println("Your cars dirtyness is " +loggedInUser.customerCar.getDirt()+ ".");
                   log1.log(loggedInUser.getUsername()+ " Analyzed the cars dirtyness");
-                  //taget fra Car.java
+               
                    if(loggedInUser.customerCar.getDirt()>=170){
                       System.out.println("Your car is very dirty..");
                       System.out.println("We recommend: \"Wash Super\"\n");
@@ -354,8 +365,9 @@ public class CarWash{
                   case 0:
                   System.out.println("Have a nice day " + loggedInUser.getUsername());
                   log1.log(loggedInUser.getUsername()+" logged out");
-                  // Crasher systemet, hvis man ikke har købt noget...
+                 
                   averageSpend = (totalSpend/carsWashed);
+              
                   g.openFile();
                   g.addRecords(totalSpend, washBad, washGood, washSuper, carsWashed, averageSpend);
                   g.closeFile();
@@ -404,19 +416,17 @@ public class CarWash{
          case 5:
          System.out.println("Goodbye "+loggedInUser.getUsername());
          log1.log(loggedInUser.getUsername()+" logged out.");
-         //"averageSpend" virker kun hvis man har købt noget ellers crahser systemet, så måske en if statement?
+         
          averageSpend = (totalSpend/carsWashed);
+       
          g.openFile();
          g.addRecords(totalSpend, washBad, washGood, washSuper, carsWashed, averageSpend);
          g.closeFile();
-         //Hvorfor "System.exit(0)"? Skal man ikke tilbage til hovedmenuen...
-         //System.exit(0);
          main(new String[0]);
          menuPromptStart();
          break;         
                            
-         case 6: ///// STATs
-         //// READ FROM FILE!!! FOR PERMANENT HUKOMELSE
+         case 7: 
          if (admin) {
          y.openFile();
          y.readFile();
@@ -428,18 +438,21 @@ public class CarWash{
          menuPrompt();
          break;
          
-         case 8:
+         case 6:
+         
          log1.log(loggedInUser.getUsername()+ " Check their bank account on a wash maschine... How? O_O");
          System.out.println("You have " +loggedInUser.getCreditCard()+ " on your credit card");
          break;
                
          case 0:
-         System.exit(0);
-         // Crasher systemet, hvis man ikke har købt noget...
+         
+        
          averageSpend = (totalSpend/carsWashed);
+      
          g.openFile();
          g.addRecords(totalSpend, washBad, washGood, washSuper, carsWashed, averageSpend);
          g.closeFile();
+         System.exit(0);
          break;
       
          default:

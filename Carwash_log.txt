@@ -1031,4 +1031,91 @@ Mon Apr 02 16:13:15 CEST 2018 : Attempt to create a new account and password
 Mon Apr 02 16:13:16 CEST 2018 : New user created: da
 Mon Apr 02 16:13:18 CEST 2018 : da created a password :awd
 Mon Apr 02 16:13:19 CEST 2018 : New user created
+<<<<<<< HEAD
 >>>>>>> ec3b79acd8c803776254a4d8c65d6bbce8057174
+=======
+Mon Apr 02 17:13:54 CEST 2018 : System was started
+Mon Apr 02 17:14:00 CEST 2018 : Admin entered the system with password: 1
+Mon Apr 02 17:14:00 CEST 2018 : Succesfuly logged in.
+Mon Apr 02 17:15:35 CEST 2018 : System was started
+Mon Apr 02 17:21:43 CEST 2018 : Admin entered the system with password: 1
+Mon Apr 02 17:21:43 CEST 2018 : Succesfuly logged in.
+Mon Apr 02 17:21:56 CEST 2018 : Admin Analyzed the cars dirtyness
+Mon Apr 02 17:43:51 CEST 2018 : System was started
+>>>>>>> b7104af76c94328bbf9cab97f6008cd1ea4260f7
+Tue Apr 03 09:05:14 CEST 2018 : System was started
+Tue Apr 03 09:05:17 CEST 2018 : Admin entered the system with password: 1
+Tue Apr 03 09:05:17 CEST 2018 : Succesfuly logged in.
+Tue Apr 03 09:08:03 CEST 2018 : Admin logged out.
+Tue Apr 03 09:10:43 CEST 2018 : System was started
+Tue Apr 03 09:10:46 CEST 2018 : Admin entered the system with password: 1
+Tue Apr 03 09:10:46 CEST 2018 : Succesfuly logged in.
+Tue Apr 03 09:10:49 CEST 2018 : Admin logged out.
+Tue Apr 03 09:10:49 CEST 2018 : System was started
+Tue Apr 03 09:11:07 CEST 2018 : Admin entered the system with password: 1
+Tue Apr 03 09:11:07 CEST 2018 : Succesfuly logged in.
+Tue Apr 03 10:22:43 CEST 2018 : System was started
+Tue Apr 03 10:22:46 CEST 2018 : Anders entered the system with password: 
+Tue Apr 03 10:22:46 CEST 2018 : Invalid username or password
+Tue Apr 03 10:22:46 CEST 2018 : System was started
+Tue Apr 03 10:22:48 CEST 2018 : User entered wrong input, most likely Jarl
+Tue Apr 03 10:22:55 CEST 2018 : Anders entered the system with password: 7894
+Tue Apr 03 10:22:55 CEST 2018 : Succesfuly logged in.
+Tue Apr 03 10:23:02 CEST 2018 : Anders transfered: 800.0 to Anders's washcard.
+Tue Apr 03 10:23:18 CEST 2018 : Car was washed with "Super wash"
+Tue Apr 03 10:23:20 CEST 2018 : Anders Did not print out a Receipt
+Tue Apr 03 10:23:25 CEST 2018 : Car was washed with "Good wash"
+Tue Apr 03 10:23:26 CEST 2018 : Anders Did not print out a Receipt
+Tue Apr 03 10:23:28 CEST 2018 : Car was washed with "Bad wash"
+Tue Apr 03 10:23:29 CEST 2018 : Anders did not print a receipt.
+Tue Apr 03 10:23:31 CEST 2018 : Anders Analyzed the cars dirtyness
+Tue Apr 03 10:26:19 CEST 2018 : System was started
+Tue Apr 03 10:26:23 CEST 2018 : Anders entered the system with password: 7894
+Tue Apr 03 10:26:23 CEST 2018 : Succesfuly logged in.
+Tue Apr 03 10:26:26 CEST 2018 : Anders succesfuly created a washcard
+Tue Apr 03 10:26:30 CEST 2018 : Not enough funds for the "Super wash"
+Tue Apr 03 10:26:35 CEST 2018 : Not enough funds for the "Super wash"
+Tue Apr 03 10:26:41 CEST 2018 : Not enough funds for the "Super wash"
+Tue Apr 03 10:26:55 CEST 2018 : Anders transfered: 800.0 to Anders's washcard.
+Tue Apr 03 10:26:57 CEST 2018 : Anders checked balance.
+Tue Apr 03 10:27:15 CEST 2018 : Car was washed with "Super wash"
+Tue Apr 03 10:27:17 CEST 2018 : Anders Printed out a Receipt
+Tue Apr 03 10:27:19 CEST 2018 : Car was washed with "Good wash"
+Tue Apr 03 10:27:20 CEST 2018 : Anders Did not print out a Receipt
+Tue Apr 03 10:27:27 CEST 2018 : Anders logged out
+Tue Apr 03 10:29:52 CEST 2018 : System was started
+Tue Apr 03 10:29:56 CEST 2018 : Anders entered the system with password: 7894
+Tue Apr 03 10:29:56 CEST 2018 : Succesfuly logged in.
+Tue Apr 03 10:30:00 CEST 2018 : Anders transfered: 800.0 to Anders's washcard.
+Tue Apr 03 10:30:05 CEST 2018 : Car was washed with "Bad wash"
+Tue Apr 03 10:30:06 CEST 2018 : Anders did not print a receipt.
+Tue Apr 03 10:30:09 CEST 2018 : Car was washed with "Good wash"
+Tue Apr 03 10:30:10 CEST 2018 : Anders Did not print out a Receipt
+Tue Apr 03 10:30:11 CEST 2018 : Car was washed with "Super wash"
+Tue Apr 03 10:30:12 CEST 2018 : Anders Did not print out a Receipt
+Tue Apr 03 10:30:16 CEST 2018 : Anders logged out
+Tue Apr 03 10:34:50 CEST 2018 : System was started
+Tue Apr 03 10:34:56 CEST 2018 : Anders entered the system with password: 7894
+Tue Apr 03 10:34:56 CEST 2018 : Succesfuly logged in.
+Tue Apr 03 10:35:07 CEST 2018 : Anders transfered: 800.0 to Anders's washcard.
+Tue Apr 03 10:35:11 CEST 2018 : Car was washed with "Super wash"
+Tue Apr 03 10:35:12 CEST 2018 : Anders Did not print out a Receipt
+Tue Apr 03 10:35:15 CEST 2018 : Car was washed with "Good wash"
+Tue Apr 03 10:35:15 CEST 2018 : Anders Did not print out a Receipt
+Tue Apr 03 10:35:17 CEST 2018 : Car was washed with "Super wash"
+Tue Apr 03 10:35:17 CEST 2018 : Anders Did not print out a Receipt
+Tue Apr 03 10:35:19 CEST 2018 : Not enough funds for the "bad wash"
+Tue Apr 03 10:35:26 CEST 2018 : Anders logged out
+Tue Apr 03 10:38:48 CEST 2018 : System was started
+Tue Apr 03 10:38:52 CEST 2018 : Anders entered the system with password: 7894
+Tue Apr 03 10:38:52 CEST 2018 : Succesfuly logged in.
+Tue Apr 03 10:38:56 CEST 2018 : Anders transfered: 800.0 to Anders's washcard.
+Tue Apr 03 10:39:00 CEST 2018 : Car was washed with "Bad wash"
+Tue Apr 03 10:39:01 CEST 2018 : Anders did not print a receipt.
+Tue Apr 03 10:39:03 CEST 2018 : Car was washed with "Super wash"
+Tue Apr 03 10:39:03 CEST 2018 : Anders Did not print out a Receipt
+Tue Apr 03 10:39:15 CEST 2018 : Anders logged out
+Tue Apr 03 10:43:34 CEST 2018 : System was started
+Tue Apr 03 10:43:55 CEST 2018 : System was started
+Tue Apr 03 10:45:36 CEST 2018 : System was started
+Tue Apr 03 10:47:44 CEST 2018 : System was started
