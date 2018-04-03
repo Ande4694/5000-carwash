@@ -15,8 +15,7 @@ public class CarWash{
         int washSuper = 0;
         int carsWashed = 0;
         int averageSpend = 0;
-    
-
+        
 
         // Used to hold the instance of a user who successfully logged in
         Customer loggedInUser = null;
@@ -33,8 +32,6 @@ public class CarWash{
         
 
                  
-        
-
         // Get user input
         BufferedReader br = new BufferedReader(
             new InputStreamReader(System.in));
@@ -50,7 +47,7 @@ public class CarWash{
         while (!input.hasNextInt()) {
         input.next();
         System.out.println("Not an integer; try again.\nNice try Jarl...");
-        log1.log("User entered wrong input");
+        log1.log("User entered wrong input, most likely Jarl");
         }
 
         int choice; 
@@ -79,13 +76,14 @@ public class CarWash{
          
          if(Password.equals(input.next())){
          System.out.println("Credentials Accepted.");
+         listOfCustomers[5] = new Customer(Username,Password);
          choice = 5000;
          }
          else{
          System.out.println("Password did not match, try again.");
          log1.log(Username+" entered wrong password");
           }
-         listOfCustomers[5] = new Customer(Username,Password);
+         //listOfCustomers[5] = new Customer(Username,Password);
          }
          
          
@@ -95,7 +93,7 @@ public class CarWash{
          break;
          
          case 0:
-         System.out.println("Have nice day!");
+         System.out.println("Have a nice day!");
          log1.log("User exited system");
          averageSpend = (totalSpend/carsWashed);
          g.openFile();
@@ -103,20 +101,21 @@ public class CarWash{
          g.closeFile();
          System.exit(0);
          break;
+         
+         default:
+         System.out.println("Not an integer; try again.");
+         log1.log("User entered wrong input, most likely Jarl");
+         break;
 
          }
          }while(choice !=1);
          
          
 
-        
-        
-        
-        
-        
+
         System.out.println("Please type your Username* :");
         username = br.readLine();   
-        System.out.println("Please type your pin code :");
+        System.out.println("Please type your Password* :");
         password = br.readLine();
         log1.log((username)+" entered the system with password: "+password);
 
@@ -167,6 +166,9 @@ public class CarWash{
       menuPrompt();
       if(admin){
       System.out.println("6: Check statistics (admin only)");
+      System.out.println("8: Check Credit card");
+      // Hahaa, earnings from "Little Animal Horror Zoo" ;)
+      loggedInUser.setCreditCard(9567926);
       }
       
 
@@ -177,6 +179,7 @@ public class CarWash{
         log1.log(loggedInUser.getUsername()+" did something wrong.");
         }
       
+     
       do 
       {
       choice = input.nextInt();
@@ -187,6 +190,13 @@ public class CarWash{
          System.out.println("Please choose a Wash");
          menuPrompt2();
       
+
+        // anti User, således at User ikke ødelægger vores code ....
+        while (!input.hasNextInt()) {
+        input.next();
+        System.out.println("Not an integer; try again.\nNice try " + loggedInUser.getUsername() + "...");
+        log1.log(loggedInUser.getUsername()+" did something wrong.");
+        }
             do 
             {
               choice = input.nextInt();
@@ -194,41 +204,157 @@ public class CarWash{
               {
 
                   case 1:
-                  loggedInUser.wash3();
-                  totalSpend += 100;
-                  washBad++;
-                  carsWashed++;
-                  menuPrompt2();
-                  break;
+                  menuPromptYes();
+                       while (choice !=5000){
+                       choice = input.nextInt();
+                       switch(choice) {
+                       
+                           case 1:
+                            loggedInUser.wash3();
+                            totalSpend += 100;
+                            washBad++;
+                            carsWashed++;
+                               
+                               if(loggedInUser.getChanged() !=1){
+                                loggedInUser.setChanged();
+                                menuPromptReceipt();
+                                 choice = input.nextInt();
+                                 switch(choice) {
+                             
+                                 //MISSING RECEIPT!!!
+                                 case 1: 
+                                 System.out.println("printing...\nSorry out off papper\n");
+                                 break;
+                             
+                                 case 2:
+                                 break;
+                                }}
+
+                           menuPrompt2();
+                           choice = 5000;
+                           break;
+                        
+                           case 2:
+                           menuPrompt2();
+                           choice = 5000;
+                           break;
+                       }}
+                  break; 
       
                   case 2:
-                  loggedInUser.wash2();
-                  totalSpend += 200;
-                  washGood++;
-                  carsWashed++;
-                  menuPrompt2();
+                  menuPromptYes();
+                       while (choice !=5000){
+                       choice = input.nextInt();
+                       switch(choice) {
+                       
+                           case 1:
+                            loggedInUser.wash2();
+                            totalSpend += 200;
+                            washGood++;
+                            carsWashed++;
+
+                               if(loggedInUser.getChanged() !=1){
+                                loggedInUser.setChanged();
+                                
+                                menuPromptReceipt();
+                                   choice = input.nextInt();
+                                   switch(choice) {
+                             
+                                   //MISSING RECEIPT!!!
+                                   case 1: 
+                                   System.out.println("printing...\nSorry out off paper\n");
+                                   log1.log(loggedInUser.getUsername()+" Printed out a Receipt");
+                                   break;
+                             
+                                   case 2:
+                                   log1.log(loggedInUser.getUsername()+" Did not print out a Receipt");
+                                   break;
+                                   }
+                                   }
+
+                           menuPrompt2();
+                           choice = 5000;
+                           break;
+                        
+                           case 2:
+                           menuPrompt2();
+                           choice = 5000;
+                           break;
+                       }}                  
                   break;
       
                   case 3:
-                  loggedInUser.wash1();
-                  totalSpend += 300;
-                  washSuper++;
-                  carsWashed++;
-                  menuPrompt2();
+                  menuPromptYes();
+                       while (choice !=5000){
+                       choice = input.nextInt();
+                       switch(choice) {
+                       
+                           case 1:
+                              loggedInUser.wash1();
+                              totalSpend += 300;
+                              washSuper++;
+                              carsWashed++;
+                               
+                               if(loggedInUser.getChanged() !=1){
+                                loggedInUser.setChanged();
+                                
+                                menuPromptReceipt();
+                                   choice = input.nextInt();
+                                   switch(choice) {
+                             
+                                   //MISSING RECEIPT!!!
+                                   case 1: 
+                                   System.out.println("printing...\nSorry out off paper\n");
+                                   break;
+                             
+                                   case 2:
+                                   break;
+                                   }
+                                   }
+
+                           menuPrompt2();
+                           choice = 5000;
+                           break;
+                        
+                           case 2:
+                           menuPrompt2();
+                           choice = 5000;
+                           break;
+                       }}
                   break;
       
+                  case 4:
+                  System.out.println("Your cars dirtyness is " +loggedInUser.customerCar.getDirt()+ ".");
+                  log1.log(loggedInUser.getUsername()+ " Analyzed the cars dirtyness");
+                  //taget fra Car.java
+                   if(loggedInUser.customerCar.getDirt()>=170){
+                      System.out.println("Your car is very dirty..");
+                      System.out.println("We recommend: \"Wash Super\"\n");
+                      menuPrompt2();
+                     } else if(loggedInUser.customerCar.getDirt()>100 && loggedInUser.customerCar.getDirt()<170){
+                      System.out.println("Your car is dirty..");
+                      System.out.println("We recommend: \"Wash Super\"\n");
+                      menuPrompt2();
+                     } else if(loggedInUser.customerCar.getDirt()>50 && loggedInUser.customerCar.getDirt()<=100){
+                      System.out.println("Your car a little dirty..");
+                      System.out.println("We recommend: \"Wash Normal\"\n");
+                      menuPrompt2();
+                     } else if(loggedInUser.customerCar.getDirt()<=50){
+                      System.out.println("WTF are you doing here... Your car is pretty much clean!");
+                      System.out.println("We recommend: \"Wash bad\"\n");
+                      menuPrompt2();
+                      }
+                  break;
+                  
                   case 5:
                   menuPrompt();
-                  averageSpend = (totalSpend/carsWashed);
-                  g.openFile();
-                  g.addRecords(totalSpend, washBad, washGood, washSuper, carsWashed, averageSpend);
-                  g.closeFile();
                   break;
       
                   
                   case 0:
                   System.out.println("Have a nice day " + loggedInUser.getUsername());
                   log1.log(loggedInUser.getUsername()+" logged out");
+                  // Crasher systemet, hvis man ikke har købt noget...
                   averageSpend = (totalSpend/carsWashed);
                   g.openFile();
                   g.addRecords(totalSpend, washBad, washGood, washSuper, carsWashed, averageSpend);
@@ -246,11 +372,22 @@ public class CarWash{
                   }while(choice !=5); 
                    break;
       
+      
+
      
 
          case 2:
+         if (loggedInUser.getWashcard()>=1000){
+         System.out.println("You are not allowed to have more than a 1000dkk on your WashCard*");
+         log1.log(loggedInUser.getUsername()+ " tried to deposit more than 1000dkk... Stupid banks roles");
+         }else{
          System.out.println("How much would you like to deposit?");
-         loggedInUser.depositWashCard(input.nextDouble());
+         
+         double money = input.nextDouble();
+         if (money <=199 || money>=1001){
+         System.out.println("You are not allowed to deposit less than 200dkk or more than 1000dkk");
+         }else{ loggedInUser.depositWashCard(money);
+         }}
          menuPrompt();         
          break;
                
@@ -267,11 +404,13 @@ public class CarWash{
          case 5:
          System.out.println("Goodbye "+loggedInUser.getUsername());
          log1.log(loggedInUser.getUsername()+" logged out.");
+         //"averageSpend" virker kun hvis man har købt noget ellers crahser systemet, så måske en if statement?
          averageSpend = (totalSpend/carsWashed);
          g.openFile();
          g.addRecords(totalSpend, washBad, washGood, washSuper, carsWashed, averageSpend);
          g.closeFile();
-         System.exit(0);
+         //Hvorfor "System.exit(0)"? Skal man ikke tilbage til hovedmenuen...
+         //System.exit(0);
          main(new String[0]);
          menuPromptStart();
          break;         
@@ -288,9 +427,15 @@ public class CarWash{
          }
          menuPrompt();
          break;
+         
+         case 8:
+         log1.log(loggedInUser.getUsername()+ " Check their bank account on a wash maschine... How? O_O");
+         System.out.println("You have " +loggedInUser.getCreditCard()+ " on your credit card");
+         break;
                
          case 0:
          System.exit(0);
+         // Crasher systemet, hvis man ikke har købt noget...
          averageSpend = (totalSpend/carsWashed);
          g.openFile();
          g.addRecords(totalSpend, washBad, washGood, washSuper, carsWashed, averageSpend);
@@ -313,12 +458,7 @@ public class CarWash{
         }
 
       
-    
-
-      
-      
       }
-      
       
       
        private static void menuPrompt()
@@ -335,9 +475,10 @@ public class CarWash{
       
       private static void menuPrompt2()
    {
-      System.out.println("1: Wash Bad");
-      System.out.println("2: Wash Normal");
-      System.out.println("3: Wash Super");
+      System.out.println("1: Wash Bad - 100.00 dkk.");
+      System.out.println("2: Wash Normal - 200.00 dkk.");
+      System.out.println("3: Wash Super - 300.00 dkk.");
+      System.out.println("4: \"New feature\" Analyze yours cars dirtyness");
       System.out.println();
       System.out.println("5: Back");
       System.out.println("0: Exit");
@@ -349,6 +490,21 @@ public class CarWash{
       System.out.println("2: Create Account");
       System.out.println();
       System.out.println("0: Exit");
+   }
+   
+   
+      private static void menuPromptYes()
+   {
+      System.out.println("Are you sure?");
+      System.out.println("1: Yes");
+      System.out.println("2: No");
+   }
+      
+      private static void menuPromptReceipt()
+   {
+      System.out.println("Want a Receipt?");
+      System.out.println("1: Yes");
+      System.out.println("2: No");
    }
       
 }

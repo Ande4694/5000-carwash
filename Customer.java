@@ -1,4 +1,5 @@
 import java.io.File;
+import java.util.Random;
 public class Customer{
 
    // han har :
@@ -6,22 +7,25 @@ public class Customer{
    // vaske kort, holder double
    private String username;
    private String password;
+   private int Changed = 1;
    private double[] washcard = new double[1];
    private double[] creditCard = new double[1];
    private double administrationFee = 150.00;
    Car customerCar = new Car();
    Logger log1 = new Logger("Carwash_log.txt");
    Logger log2 = new Logger("Receipt.txt");
+   Random r = new Random();
    
-   // default constructor  til customer så de har 1000 dkk
+   // default constructor  til customer så de har 1000 dkk (BRUGER VI DET HER???)
    public Customer(){
-      creditCard[0]=1000;
+      creditCard[0]=r.nextInt(10000-200)+200;
    }
    
    Customer (String username, String password){
         this.username = username;
         this.password = password;
-        creditCard[0]=1000;
+        creditCard[0]=r.nextInt(10000-200)+200;
+        customerCar.setDirt(1);
    }
    
    public String getUsername(){
@@ -35,6 +39,7 @@ public class Customer{
    // customer washes car1 300dkk - 150 dirt
    public void wash1(){
       if(washcard[0]>=300){
+      Changed++;
       washcard[0]-=300.00;
       customerCar.wash(150);
       log1.log("Car was washed with \"Super wash\"");
@@ -48,6 +53,7 @@ public class Customer{
    // customer washes car2 200dkk - 100 dirt
    public void wash2(){
       if(washcard[0]>=200){
+      Changed++;
       washcard[0]-=200.00;
       customerCar.wash(100);
       log1.log("Car was washed with \"Good wash\"");
@@ -61,6 +67,7 @@ public class Customer{
    // customer washes car3 100dkk - 50 dirt 
    public void wash3(){
       if(washcard[0]>=100){
+      Changed++;
       washcard[0]-=100.00;
       customerCar.wash(50);
       log1.log("Car was washed with \"Bad wash\"");
@@ -122,10 +129,22 @@ public class Customer{
    public double getCreditCard(){
       return creditCard[0];
    }
-   
+   // set dankort
+   public void setCreditCard(double money){
+      creditCard[0]=money;
+   }
    // get washcard
    public double getWashcard(){
       return washcard[0];
+   }
+   
+   // get Changed
+   public int getChanged(){
+      return Changed;
+   }
+   // set Changed
+   public void setChanged(){
+      Changed = 1;
    }
    
    

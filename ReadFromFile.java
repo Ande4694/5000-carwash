@@ -40,6 +40,41 @@ public String read;
 
    }
    
+   ///// udskift "hentData" med "readFromFile"////
+   ///
+   ////
+   public int[] hentData(){
+   int [] data = new int[6];
+      try{
+         while(x.hasNext()){
+           String a = x.next(); // spend
+           String b = x.next(); // bad
+           String c = x.next(); // good
+           String d = x.next(); // super
+           String e = x.next(); // carswashed
+           String f = x.next(); // average
+           //// cast til int
+           int aa = Integer.parseInt(a);
+           int bb = Integer.parseInt(b);
+           int cc = Integer.parseInt(c);
+           int dd = Integer.parseInt(d);
+           int ee = Integer.parseInt(e);
+           int ff = Integer.parseInt(f);           
+           //// tilføj til data[]
+           data[0] = aa;
+           data[1] = bb;
+           data[2] = cc;
+           data[3] = dd;
+           data[4] = ee;
+           data[5] = ff;
+           }   
+      } catch (Exception e){
+      System.out.println("problem under laesning af data"); 
+      }
+           
+      return data;
+   }
+   
    public void closeFile(){
       try{ 
       x.close();
