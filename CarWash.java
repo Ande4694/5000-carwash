@@ -17,6 +17,7 @@ public class CarWash{
    Logger log1 = new Logger("Carwash_log.txt");
    CreateFile g = new CreateFile();
    ReadFromFile y = new ReadFromFile();
+   /// https://stackoverflow.com/questions/303913/java-reading-integers-from-a-file-into-an-array
    File file = new File("CarWashStats.txt");
    byte[] bytes = new byte[(int) file.length()];
       try {
