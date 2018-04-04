@@ -126,7 +126,6 @@ Mon Apr 02 13:06:59 CEST 2018 : Receipt of purchase: 1x "Bad wash" by: Admin pri
 Mon Apr 02 13:07:13 CEST 2018 : Receipt of purchase: 1000.0 washfunds added to washcard by: Admin
 Mon Apr 02 13:13:31 CEST 2018 : Receipt of purchase: 1000.0 washfunds added to washcard by: Admin
 Mon Apr 02 13:31:44 CEST 2018 : Receipt of purchase: 246.0 washfunds added to washcard by: Admin
-
 Tue Apr 03 10:23:02 CEST 2018 : Receipt of purchase: 800.0 washfunds added to washcard by: Anders
 Tue Apr 03 10:23:18 CEST 2018 : Receipt of purchase: 1x "Super wash" by: Anders price: 300dkk.
 Tue Apr 03 10:23:25 CEST 2018 : Receipt of purchase: 1x "Good wash" by: Anders price: 200dkk.
@@ -146,3 +145,11 @@ Tue Apr 03 10:35:17 CEST 2018 : Receipt of purchase: 1x "Super wash" by: Anders 
 Tue Apr 03 10:38:56 CEST 2018 : Receipt of purchase: 800.0 washfunds added to washcard by: Anders
 Tue Apr 03 10:39:00 CEST 2018 : Receipt of purchase: 1x "Bad wash" by: Anders price: 100dkk.
 Tue Apr 03 10:39:03 CEST 2018 : Receipt of purchase: 1x "Super wash" by: Anders price: 300dkk.
+Tue Apr 03 11:27:32 CEST 2018 : Receipt of purchase: 1x "5000 WashCard" by: AndersAdministration fee: 150dkk.
+Wed Apr 04 15:41:37 CEST 2018 : Receipt of purchase: 1x "5000 WashCard" by: AndersAdministration fee: 150dkk.
+Wed Apr 04 15:41:45 CEST 2018 : Receipt of purchase: 850.0 washfunds added to washcard by: Anders
+Wed Apr 04 15:41:55 CEST 2018 : Receipt of purchase: 1x "Super wash" by: Anders price: 300dkk.
+Wed Apr 04 15:59:52 CEST 2018 : Receipt of purchase: 1x "5000 WashCard" by: AndersAdministration fee: 150dkk.
+Wed Apr 04 16:01:20 CEST 2018 : Receipt of purchase: 1x "5000 WashCard" by: AdminAdministration fee: 150dkk.
+Wed Apr 04 16:01:32 CEST 2018 : Receipt of purchase: 800.0 washfunds added to washcard by: Admin
+Wed Apr 04 16:01:47 CEST 2018 : Receipt of purchase: 1x "Super wash" by: Admin price: 300dkk.

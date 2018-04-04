@@ -1119,3 +1119,67 @@ Tue Apr 03 10:43:34 CEST 2018 : System was started
 Tue Apr 03 10:43:55 CEST 2018 : System was started
 Tue Apr 03 10:45:36 CEST 2018 : System was started
 Tue Apr 03 10:47:44 CEST 2018 : System was started
+Tue Apr 03 10:53:52 CEST 2018 : System was started
+Tue Apr 03 10:54:33 CEST 2018 : System was started
+Tue Apr 03 10:56:03 CEST 2018 : System was started
+Tue Apr 03 10:56:05 CEST 2018 : User exited system
+Tue Apr 03 11:07:43 CEST 2018 : System was started
+Tue Apr 03 11:07:46 CEST 2018 : User exited system
+Tue Apr 03 11:08:04 CEST 2018 : System was started
+Tue Apr 03 11:09:31 CEST 2018 : System was started
+Tue Apr 03 11:10:46 CEST 2018 : System was started
+Tue Apr 03 11:12:02 CEST 2018 : System was started
+Tue Apr 03 11:16:57 CEST 2018 : System was started
+Tue Apr 03 11:20:01 CEST 2018 : System was started
+Tue Apr 03 11:20:49 CEST 2018 : System was started
+Tue Apr 03 11:23:10 CEST 2018 : System was started
+Tue Apr 03 11:23:55 CEST 2018 : System was started
+Tue Apr 03 11:26:47 CEST 2018 : System was started
+Tue Apr 03 11:26:54 CEST 2018 : Anders entered the system with password: 7894
+Tue Apr 03 11:26:54 CEST 2018 : Succesfuly logged in.
+Tue Apr 03 11:27:26 CEST 2018 : System was started
+Tue Apr 03 11:27:30 CEST 2018 : Anders entered the system with password: 7894
+Tue Apr 03 11:27:30 CEST 2018 : Succesfuly logged in.
+Tue Apr 03 11:27:32 CEST 2018 : Anders succesfuly created a washcard
+Tue Apr 03 11:37:46 CEST 2018 : System was started
+Tue Apr 03 11:38:15 CEST 2018 : System was started
+Wed Apr 04 15:29:48 CEST 2018 : System was started
+Wed Apr 04 15:30:16 CEST 2018 : System was started
+Wed Apr 04 15:35:43 CEST 2018 : System was started
+Wed Apr 04 15:37:23 CEST 2018 : System was started
+Wed Apr 04 15:41:21 CEST 2018 : System was started
+Wed Apr 04 15:41:35 CEST 2018 : Anders entered the system with password: 7894
+Wed Apr 04 15:41:35 CEST 2018 : Succesfuly logged in.
+Wed Apr 04 15:41:37 CEST 2018 : Anders succesfuly created a washcard
+Wed Apr 04 15:41:45 CEST 2018 : Anders transfered: 850.0 to Anders's washcard.
+Wed Apr 04 15:41:55 CEST 2018 : Car was washed with "Super wash"
+Wed Apr 04 15:41:57 CEST 2018 : Anders Printed out a Receipt
+Wed Apr 04 15:42:24 CEST 2018 : Anders logged out
+Wed Apr 04 15:42:39 CEST 2018 : System was started
+Wed Apr 04 15:42:42 CEST 2018 : Admin entered the system with password: 1
+Wed Apr 04 15:42:42 CEST 2018 : Succesfuly logged in.
+Wed Apr 04 15:42:44 CEST 2018 : Admin Check their bank account on a wash maschine... How? O_O
+Wed Apr 04 15:51:04 CEST 2018 : System was started
+Wed Apr 04 15:52:28 CEST 2018 : Admin entered the system with password: 1
+Wed Apr 04 15:52:28 CEST 2018 : Succesfuly logged in.
+Wed Apr 04 15:59:33 CEST 2018 : System was started
+Wed Apr 04 15:59:40 CEST 2018 : User entered wrong input, most likely Jarl
+Wed Apr 04 15:59:48 CEST 2018 : Anders entered the system with password: 7894
+Wed Apr 04 15:59:48 CEST 2018 : Succesfuly logged in.
+Wed Apr 04 15:59:52 CEST 2018 : Anders succesfuly created a washcard
+Wed Apr 04 15:59:56 CEST 2018 : Anders failed to deposit money on his/hers washcard, due to insufficient funds.
+Wed Apr 04 15:59:59 CEST 2018 : Not enough funds for the "Super wash"
+Wed Apr 04 16:00:07 CEST 2018 : Not enough funds for the "bad wash"
+Wed Apr 04 16:00:14 CEST 2018 : Anders checked balance.
+Wed Apr 04 16:00:20 CEST 2018 : Anders failed to deposit money on his/hers washcard, due to insufficient funds.
+Wed Apr 04 16:00:29 CEST 2018 : Anders attempted to acces admin functions.
+Wed Apr 04 16:00:34 CEST 2018 : Anders Checked their bank account on a wash maschine... How? O_O
+Wed Apr 04 16:00:55 CEST 2018 : Not enough funds for the "bad wash"
+Wed Apr 04 16:01:09 CEST 2018 : Anders logged out.
+Wed Apr 04 16:01:09 CEST 2018 : System was started
+Wed Apr 04 16:01:16 CEST 2018 : Admin entered the system with password: 1
+Wed Apr 04 16:01:16 CEST 2018 : Succesfuly logged in.
+Wed Apr 04 16:01:20 CEST 2018 : Admin succesfuly created a washcard
+Wed Apr 04 16:01:32 CEST 2018 : Admin transfered: 800.0 to Admin's washcard.
+Wed Apr 04 16:01:47 CEST 2018 : Car was washed with "Super wash"
+Wed Apr 04 16:01:48 CEST 2018 : Admin Printed out a Receipt

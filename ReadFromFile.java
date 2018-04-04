@@ -1,11 +1,12 @@
 import java.io.*;
 import java.util.*;
+import java.lang.*;
 
 public class ReadFromFile{
 public String read;
    private Scanner x;
    int aa;
-
+   int[] data = new int[6];
    
    public void openFile(){
       try{
@@ -26,12 +27,12 @@ public String read;
          String e = x.next(); // carswashed
          String f = x.next(); // average
          
-         System.out.println("Cars washed this session: \t\t\t"+e);
-         System.out.println("Total spend this session: \t\t\t"+a);
-         System.out.println("Bad washes this session: \t\t\t"+b);
-         System.out.println("Good washes this session: \t\t\t"+c);
-         System.out.println("Super washes this session: \t\t"+d);
-         System.out.println("Average spend this session: \t\t"+f);   
+         System.out.println("Cars washed: \t\t\t"+e);
+         System.out.println("Total spend: \t\t\t"+a);
+         System.out.println("Bad washes: \t\t\t"+b);
+         System.out.println("Good washes: \t\t\t"+c);
+         System.out.println("Super washes: \t\t"+d);
+         System.out.println("Average spend: \t\t"+f);   
 
       }
       } catch (Exception e){
@@ -39,41 +40,7 @@ public String read;
       }
 
    }
-   
-   ///// udskift "hentData" med "readFile"////
-   ///
-   ////
-   public int[] hentData(){
-   int [] data = new int[6];
-      try{
-         while(x.hasNext()){
-           String a = x.next(); // spend
-           String b = x.next(); // bad
-           String c = x.next(); // good
-           String d = x.next(); // super
-           String e = x.next(); // carswashed
-           String f = x.next(); // average
-           //// cast til int
-           int aa = Integer.parseInt(a);
-           int bb = Integer.parseInt(b);
-           int cc = Integer.parseInt(c);
-           int dd = Integer.parseInt(d);
-           int ee = Integer.parseInt(e);
-           int ff = Integer.parseInt(f);           
-           //// tilføj til data[]
-           data[0] = aa;
-           data[1] = bb;
-           data[2] = cc;
-           data[3] = dd;
-           data[4] = ee;
-           data[5] = ff;
-           }   
-      } catch (Exception e){
-      System.out.println("problem under laesning af data"); 
-      }
-           
-      return data;
-   }
+
    
    public void closeFile(){
       try{ 

@@ -3,25 +3,51 @@ import java.util.*;
 
 public class CarWash{   
    public static void main(String[]args)throws IOException{
+   String username;
+   String password;
+   boolean blankData = false;
+   int totalSpend = 0;
+   int washBad = 0;
+   int washGood = 0;
+   int washSuper = 0;
+   int carsWashed = 0;
+   int averageSpend = 0;
+   String date = new Date().toString();
+   
    Logger log1 = new Logger("Carwash_log.txt");
    CreateFile g = new CreateFile();
    ReadFromFile y = new ReadFromFile();
-   
-        String username;
-        String password;
-      
+   File file = new File("CarWashStats.txt");
+   byte[] bytes = new byte[(int) file.length()];
+      try {
+         FileInputStream fis = new FileInputStream(file);
+         fis.read(bytes);
+         fis.close();
+      } catch (Exception e){
+         System.out.println("CarWashStats.txt does not excist, cannot load previous data.");
+      }
+
+   String[] valueStr = new String(bytes).trim().split("\\s+");
+   int[] data = new int[valueStr.length];
+   for (int i = 0; i < valueStr.length; i++)
+      try {       
+         data[i] = Integer.parseInt(valueStr[i]);
+      } catch (Exception e){
+         System.out.println("CarWashStats.txt is blank, cannot load previous data.");
+         blankData = true;
+      }
+     
+
         
-        /// tilføj y.hentData();
-        ////////
-        ////
-        int totalSpend = 0;
-        int washBad = 0;
-        int washGood = 0;
-        int washSuper = 0;
-        int carsWashed = 0;
-        int averageSpend = 0;
-        y.hentData();
-        System.out.println(Arrays.toString(y.hentData()));
+        if (!blankData){
+        totalSpend = data[0];
+        washBad = data[1];
+        washGood = data[2];
+        washSuper = data[3];
+        carsWashed = data[4];
+        averageSpend = data[5]; 
+        } 
+
 
 
         // Used to hold the instance of a user who successfully logged in
@@ -102,7 +128,11 @@ public class CarWash{
          case 0:
          System.out.println("Have a nice day!");
          log1.log("User exited system");
+         try{
          averageSpend = (totalSpend/carsWashed);
+         } catch (Exception e){
+         System.out.println("Something went wrong, probably divid by zero");
+         }
          g.openFile();
          g.addRecords(totalSpend, washBad, washGood, washSuper, carsWashed, averageSpend);
          g.closeFile();
@@ -313,7 +343,7 @@ public class CarWash{
                              
                                    
                                    case 1: 
-                                   System.out.println("Receipt of purchase:\n1x Gustav special \"Super wash\"\nPrice: 300 dkk.");
+                                   System.out.println("*****Receipt of purchase*****\nType of wash: Gustav special - \"Super wash\nPurchased "+date+" \nPrice: 300 dkk.\n");
                                    log1.log(loggedInUser.getUsername()+" Printed out a Receipt");
                                    break;
                              
@@ -426,7 +456,7 @@ public class CarWash{
          menuPromptStart();
          break;         
                            
-         case 7: 
+         case 6: 
          if (admin) {
          y.openFile();
          y.readFile();
@@ -438,9 +468,9 @@ public class CarWash{
          menuPrompt();
          break;
          
-         case 6:
+         case 8:
          
-         log1.log(loggedInUser.getUsername()+ " Check their bank account on a wash maschine... How? O_O");
+         log1.log(loggedInUser.getUsername()+ " Checked their bank account on a wash maschine... How? O_O");
          System.out.println("You have " +loggedInUser.getCreditCard()+ " on your credit card");
          break;
                
