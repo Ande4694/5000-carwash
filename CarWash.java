@@ -111,6 +111,7 @@ public class CarWash{
          if(Password.equals(input.next())){
          System.out.println("Credentials Accepted.");
          listOfCustomers[5] = new Customer(Username,Password);
+         //loggedInUser.createWashCard();
          choice = 5000;
          }
          else{
@@ -169,6 +170,7 @@ public class CarWash{
                 {
                     
                     loggedInUser = user;
+                    loggedInUser.createWashCard();
                     if (loggedInUser == listOfCustomers[4]){
                     admin = true;
                     }
@@ -238,7 +240,7 @@ public class CarWash{
         }
             do 
             {
-                                         // anti User, således at User ikke ødelægger vores code ....
+                             // anti User, således at User ikke ødelægger vores code ....
                              while (!input.hasNextInt()) {
                              input.next();
                              System.out.println("Not an integer; try again.\nNice try " + loggedInUser.getUsername() + "...");
@@ -271,7 +273,7 @@ public class CarWash{
                                if(loggedInUser.getChanged() !=1){
                                 loggedInUser.setChanged();
                                 menuPromptReceipt();
-                                                             // anti User, således at User ikke ødelægger vores code ....
+                            // anti User, således at User ikke ødelægger vores code ....
                              while (!input.hasNextInt()) {
                              input.next();
                              System.out.println("Not an integer; try again.\nNice try " + loggedInUser.getUsername() + "...");
@@ -282,11 +284,11 @@ public class CarWash{
                              
                                 
                                  case 1: 
-<<<<<<< HEAD
+
                                  System.out.println("Receipt of purchase:\n1x Gustav special \"bad wash\"\nPrice: 100 dkk.\n");
-=======
+
                                  System.out.println("*****Receipt of purchase*****\nType of wash: Gustav special - \"Bad wash\nPurchased "+date+" \nPrice: 100 dkk.\n******* Gustav out *******\n");
->>>>>>> 71dd7066802d5f4efaaf400001a5a5f5880f7778
+
                                  log1.log(loggedInUser.getUsername()+" Printed out a Receipt");
                                  break;
                              
@@ -301,7 +303,7 @@ public class CarWash{
                                 }}
                                       menuClose();
                                       while(choice!=5001){
-                                                                   // anti User, således at User ikke ødelægger vores code ....
+                             // anti User, således at User ikke ødelægger vores code ....
                              while (!input.hasNextInt()) {
                              input.next();
                              System.out.println("Not an integer; try again.\nNice try " + loggedInUser.getUsername() + "...");
@@ -370,7 +372,7 @@ public class CarWash{
                                 loggedInUser.setChanged();
                                 
                                 menuPromptReceipt();
-                                                             // anti User, således at User ikke ødelægger vores code ....
+                             // anti User, således at User ikke ødelægger vores code ....
                              while (!input.hasNextInt()) {
                              input.next();
                              System.out.println("Not an integer; try again.\nNice try " + loggedInUser.getUsername() + "...");
@@ -381,11 +383,9 @@ public class CarWash{
                              
                                   
                                    case 1: 
-<<<<<<< HEAD
                                    System.out.println("Receipt of purchase:\n1x Gustav special \"good wash\"\nPrice: 200 dkk.\n");
-=======
                                    System.out.println("*****Receipt of purchase*****\nType of wash: Gustav special - \"Good wash\nPurchased "+date+" \nPrice: 200 dkk.\n******* Gustav out *******\n");
->>>>>>> 71dd7066802d5f4efaaf400001a5a5f5880f7778
+
                                    log1.log(loggedInUser.getUsername()+" Printed out a Receipt");
                                    break;
                              
@@ -395,7 +395,7 @@ public class CarWash{
                                    }}
                                       menuClose();
                                       while(choice!=5001){
-                                                                   // anti User, således at User ikke ødelægger vores code ....
+                             // anti User, således at User ikke ødelægger vores code ....
                              while (!input.hasNextInt()) {
                              input.next();
                              System.out.println("Not an integer; try again.\nNice try " + loggedInUser.getUsername() + "...");
@@ -485,7 +485,7 @@ public class CarWash{
                                    }}
                                       menuClose();
                                       while(choice!=5001){
-                                                                   // anti User, således at User ikke ødelægger vores code ....
+                             // anti User, således at User ikke ødelægger vores code ....
                              while (!input.hasNextInt()) {
                              input.next();
                              System.out.println("Not an integer; try again.\nNice try " + loggedInUser.getUsername() + "...");
@@ -608,13 +608,8 @@ public class CarWash{
          loggedInUser.checkBalance();
          menuPrompt();
          break; 
-         
+
          case 4:
-         loggedInUser.createWashCard();
-         menuPrompt();   
-         break;           
-         
-         case 5:
          System.out.println("Goodbye "+loggedInUser.getUsername());
          log1.log(loggedInUser.getUsername()+" logged out.");
          
@@ -671,8 +666,7 @@ public class CarWash{
       System.out.println("1: Wash Car");
       System.out.println("2: Deposit Money");
       System.out.println("3: Check balance");
-      System.out.println("4: Create Washcard");
-      System.out.println("5: Log out");
+      System.out.println("4: Log out");
       System.out.println();
       System.out.println("0: Exit");
       

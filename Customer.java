@@ -83,7 +83,7 @@ public class Customer{
       if (creditCard[0]>=administrationFee){
          creditCard[0]-=administrationFee;
          double[] washcard = new double[1];
-         System.out.println("Your wash card has been created and is now ready to use.\n Please deposit money on it first.\n");
+         System.out.println("Your wash card has been created and is now ready to use.\nPlease deposit money on it first.\nA fee of 150 DKK has been deducted from your credit card.\n");
          log1.log(getUsername()+" succesfuly created a washcard"); 
          log2.log("Receipt of purchase: 1x \"5000 WashCard\" by: "+getUsername()+"Administration fee: 150dkk.");
          return washcard;

@@ -1417,3 +1417,36 @@ Thu Apr 05 09:27:15 CEST 2018 : Anders Did not print out a Receipt
 Thu Apr 05 09:27:24 CEST 2018 : Car was washed with "Good wash"
 Thu Apr 05 09:27:25 CEST 2018 : Anders Printed out a Receipt
 >>>>>>> 71dd7066802d5f4efaaf400001a5a5f5880f7778
+Thu Apr 05 10:58:43 CEST 2018 : System was started
+Thu Apr 05 11:18:35 CEST 2018 : System was started
+Thu Apr 05 11:18:42 CEST 2018 : Attempt to create a new account and password
+Thu Apr 05 11:18:44 CEST 2018 : New user created: Thomas
+Thu Apr 05 11:18:56 CEST 2018 : Thomas created a password :1
+Thu Apr 05 11:21:14 CEST 2018 : System was started
+Thu Apr 05 11:21:15 CEST 2018 : Attempt to create a new account and password
+Thu Apr 05 11:21:17 CEST 2018 : New user created: Thomas
+Thu Apr 05 11:21:18 CEST 2018 : Thomas created a password :1
+Thu Apr 05 11:21:18 CEST 2018 : New user created
+Thu Apr 05 11:21:22 CEST 2018 : Thomas entered the system with password: 1
+Thu Apr 05 11:21:22 CEST 2018 : Thomas succesfuly created a washcard
+Thu Apr 05 11:21:22 CEST 2018 : Succesfuly logged in.
+Thu Apr 05 11:21:36 CEST 2018 : Thomas Checked their bank account on a wash maschine... How? O_O
+Thu Apr 05 11:22:27 CEST 2018 : System was started
+Thu Apr 05 11:22:28 CEST 2018 : Attempt to create a new account and password
+Thu Apr 05 11:22:30 CEST 2018 : New user created: thomas
+Thu Apr 05 11:22:30 CEST 2018 : thomas created a password :1
+Thu Apr 05 11:22:31 CEST 2018 : New user created
+Thu Apr 05 11:22:33 CEST 2018 : thomas entered the system with password: 1
+Thu Apr 05 11:22:33 CEST 2018 : thomas succesfuly created a washcard
+Thu Apr 05 11:22:33 CEST 2018 : Succesfuly logged in.
+Thu Apr 05 11:22:35 CEST 2018 : thomas Checked their bank account on a wash maschine... How? O_O
+Thu Apr 05 11:24:44 CEST 2018 : System was started
+Thu Apr 05 11:24:46 CEST 2018 : Attempt to create a new account and password
+Thu Apr 05 11:24:46 CEST 2018 : New user created: 1
+Thu Apr 05 11:24:47 CEST 2018 : 1 created a password :1
+Thu Apr 05 11:24:47 CEST 2018 : New user created
+Thu Apr 05 11:24:49 CEST 2018 : 1 entered the system with password: 1
+Thu Apr 05 11:24:49 CEST 2018 : 1 succesfuly created a washcard
+Thu Apr 05 11:24:49 CEST 2018 : Succesfuly logged in.
+Thu Apr 05 11:25:07 CEST 2018 : 1 Checked their bank account on a wash maschine... How? O_O
+Thu Apr 05 11:25:20 CEST 2018 : 1 did something wrong.
