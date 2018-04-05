@@ -210,16 +210,17 @@ public class CarWash{
       }
       
 
-        // anti User, således at User ikke ødelægger vores code ....
-        while (!input.hasNextInt()) {
-        input.next();
-        System.out.println("Not an integer; try again.\nNice try " + loggedInUser.getUsername() + "...");
-        log1.log(loggedInUser.getUsername()+" did something wrong.");
-        }
+
       
      
       do 
       {
+                                   // anti User, således at User ikke ødelægger vores code ....
+                             while (!input.hasNextInt()) {
+                             input.next();
+                             System.out.println("Not an integer; try again.\nNice try " + loggedInUser.getUsername() + "...");
+                             log1.log(loggedInUser.getUsername()+" did something wrong.");
+        }
       choice = input.nextInt();
          switch(choice)
          {
@@ -237,14 +238,29 @@ public class CarWash{
         }
             do 
             {
+                                         // anti User, således at User ikke ødelægger vores code ....
+                             while (!input.hasNextInt()) {
+                             input.next();
+                             System.out.println("Not an integer; try again.\nNice try " + loggedInUser.getUsername() + "...");
+                             log1.log(loggedInUser.getUsername()+" did something wrong.");
+        }
               choice = input.nextInt();
               switch(choice)
               {
 
+                  
                   case 1:
                   menuPromptYes();
+                  while(choice!=5000){
+                             // anti User, således at User ikke ødelægger vores code ....
+                             while (!input.hasNextInt()) {
+                             input.next();
+                             System.out.println("Not an integer; try again.\nNice try " + loggedInUser.getUsername() + "...");
+                             log1.log(loggedInUser.getUsername()+" did something wrong.");
+        }
                        choice = input.nextInt();
                        switch(choice) {
+                       
                        
                            case 1:
                             loggedInUser.wash3();
@@ -255,31 +271,88 @@ public class CarWash{
                                if(loggedInUser.getChanged() !=1){
                                 loggedInUser.setChanged();
                                 menuPromptReceipt();
+                                                             // anti User, således at User ikke ødelægger vores code ....
+                             while (!input.hasNextInt()) {
+                             input.next();
+                             System.out.println("Not an integer; try again.\nNice try " + loggedInUser.getUsername() + "...");
+                             log1.log(loggedInUser.getUsername()+" did something wrong.");
+        }
                                  choice = input.nextInt();
                                  switch(choice) {
                              
                                 
                                  case 1: 
-                                 System.out.println("Receipt of purchase:\n1x Gustav special \"bad wash\"\nPrice: 100 dkk.");
+                                 System.out.println("Receipt of purchase:\n1x Gustav special \"bad wash\"\nPrice: 100 dkk.\n");
                                  log1.log(loggedInUser.getUsername()+" Printed out a Receipt");
                                  break;
                              
                                  case 2:
                                  log1.log(loggedInUser.getUsername()+" did not print a receipt.");
                                  break;
+                                 
+                                 default:
+                                 System.out.println("Wrong Input... again");
+                                 
+                                 break;
                                 }}
+                                      menuClose();
+                                      while(choice!=5001){
+                                                                   // anti User, således at User ikke ødelægger vores code ....
+                             while (!input.hasNextInt()) {
+                             input.next();
+                             System.out.println("Not an integer; try again.\nNice try " + loggedInUser.getUsername() + "...");
+                             log1.log(loggedInUser.getUsername()+" did something wrong.");
+        }
+                                      choice = input.nextInt();
+                                      switch(choice) {
+                                    
+                                       case 1: 
+                                       System.out.println("Please choice a wash");
+                                       choice = 5001;
+                                       break;
+                                   
+                                       case 2:
+                                        System.out.println("Have a nice day " + loggedInUser.getUsername());
+                                        log1.log(loggedInUser.getUsername()+" logged out");
+                 
+                                        averageSpend = (totalSpend/carsWashed);
+              
+                                        g.openFile();
+                                        g.addRecords(totalSpend, washBad, washGood, washSuper, carsWashed, averageSpend);
+                                        g.closeFile();
+                                        System.exit(0);
+                                       break;
+                                    
+                                       default:
+                                       System.out.println("Are you serious... WRONG INPUT "+loggedInUser.getUsername());
+                                       break;
+                                 }}
 
                            menuPrompt2();
+                           choice=5000;
                            break;
                         
                            case 2:
                            menuPrompt2();
+                           choice=5000;
                            break;
-                       }
+                           
+                           default:
+                           System.out.println("WRONG!!!");
+                           menuPromptYes();
+                           break;
+                       }}
                   break; 
       
                   case 2:
                   menuPromptYes();
+                       while(choice!=5000){
+                             // anti User, således at User ikke ødelægger vores code ....
+                             while (!input.hasNextInt()) {
+                             input.next();
+                             System.out.println("Not an integer; try again.\nNice try " + loggedInUser.getUsername() + "...");
+                             log1.log(loggedInUser.getUsername()+" did something wrong.");
+        }
                        choice = input.nextInt();
                        switch(choice) {
                        
@@ -293,32 +366,83 @@ public class CarWash{
                                 loggedInUser.setChanged();
                                 
                                 menuPromptReceipt();
+                                                             // anti User, således at User ikke ødelægger vores code ....
+                             while (!input.hasNextInt()) {
+                             input.next();
+                             System.out.println("Not an integer; try again.\nNice try " + loggedInUser.getUsername() + "...");
+                             log1.log(loggedInUser.getUsername()+" did something wrong.");
+        }
                                    choice = input.nextInt();
                                    switch(choice) {
                              
                                    //MISSING RECEIPT!!!
                                    case 1: 
-                                   System.out.println("Receipt of purchase:\n1x Gustav special \"good wash\"\nPrice: 200 dkk.");
+                                   System.out.println("Receipt of purchase:\n1x Gustav special \"good wash\"\nPrice: 200 dkk.\n");
                                    log1.log(loggedInUser.getUsername()+" Printed out a Receipt");
                                    break;
                              
                                    case 2:
                                    log1.log(loggedInUser.getUsername()+" Did not print out a Receipt");
                                    break;
-                                   }
-                                   }
+                                   }}
+                                      menuClose();
+                                      while(choice!=5001){
+                                                                   // anti User, således at User ikke ødelægger vores code ....
+                             while (!input.hasNextInt()) {
+                             input.next();
+                             System.out.println("Not an integer; try again.\nNice try " + loggedInUser.getUsername() + "...");
+                             log1.log(loggedInUser.getUsername()+" did something wrong.");
+        }
+                                      choice = input.nextInt();
+                                      switch(choice) {
+                                    
+                                       case 1: 
+                                       System.out.println("Please choice a wash");
+                                       choice = 5001;
+                                       break;
+                                   
+                                       case 2:
+                                        System.out.println("Have a nice day " + loggedInUser.getUsername());
+                                        log1.log(loggedInUser.getUsername()+" logged out");
+                 
+                                        averageSpend = (totalSpend/carsWashed);
+              
+                                        g.openFile();
+                                        g.addRecords(totalSpend, washBad, washGood, washSuper, carsWashed, averageSpend);
+                                        g.closeFile();
+                                        System.exit(0);
+                                       break;
+                                    
+                                       default:
+                                       System.out.println("Are you serious... WRONG INPUT "+loggedInUser.getUsername());
+                                       break;
+                                   }}
 
                            menuPrompt2();
+                           choice=5000;
                            break;
                         
                            case 2:
                            menuPrompt2();
+                           choice=5000;
                            break;
-                       }                 
+                           
+                           default:
+                           System.out.println("Wrong input");
+                           menuPromptYes();
+                           break;
+                       }}                 
                   break;
       
                   case 3:
                   menuPromptYes();
+                       while(choice!=5000){
+                             // anti User, således at User ikke ødelægger vores code ....
+                             while (!input.hasNextInt()) {
+                             input.next();
+                             System.out.println("Not an integer; try again.\nNice try " + loggedInUser.getUsername() + "...");
+                             log1.log(loggedInUser.getUsername()+" did something wrong.");
+        }
                        choice = input.nextInt();
                        switch(choice) {
                        
@@ -332,6 +456,12 @@ public class CarWash{
                                 loggedInUser.setChanged();
                                 
                                 menuPromptReceipt();
+                              // anti User, således at User ikke ødelægger vores code ....
+                             while (!input.hasNextInt()) {
+                             input.next();
+                             System.out.println("Not an integer; try again.\nNice try " + loggedInUser.getUsername() + "...");
+                             log1.log(loggedInUser.getUsername()+" did something wrong.");
+        }
                                    choice = input.nextInt();
                                    switch(choice) {
                              
@@ -344,14 +474,51 @@ public class CarWash{
                                    case 2:
                                    log1.log(loggedInUser.getUsername()+" Did not print out a Receipt");
                                    break;
-                                   }
-                                   }
+                                   }}
+                                      menuClose();
+                                      while(choice!=5001){
+                                                                   // anti User, således at User ikke ødelægger vores code ....
+                             while (!input.hasNextInt()) {
+                             input.next();
+                             System.out.println("Not an integer; try again.\nNice try " + loggedInUser.getUsername() + "...");
+                             log1.log(loggedInUser.getUsername()+" did something wrong.");
+        }
+                                      choice = input.nextInt();
+                                      switch(choice) {
+                                    
+                                       case 1: 
+                                       System.out.println("Please choice a wash");
+                                       choice = 5001;
+                                       break;
+                                   
+                                       case 2:
+                                        System.out.println("Have a nice day " + loggedInUser.getUsername());
+                                        log1.log(loggedInUser.getUsername()+" logged out");
+                 
+                                        averageSpend = (totalSpend/carsWashed);
+              
+                                        g.openFile();
+                                        g.addRecords(totalSpend, washBad, washGood, washSuper, carsWashed, averageSpend);
+                                        g.closeFile();
+                                        System.exit(0);
+                                       break;
+                                    
+                                       default:
+                                       System.out.println("Are you serious... WRONG INPUT "+loggedInUser.getUsername());
+                                       break;
+                                  }}
+                                   
                            menuPrompt2();
+                           choice=5000;
                            break;
                         
                            case 2:
+                           choice=5000;
                            break;
-                       }
+                           
+                           default:
+                           System.out.println("Wrong input");
+                       }}
                   break;
       
                   case 4:
@@ -415,6 +582,12 @@ public class CarWash{
          }else{
          System.out.println("How much would you like to deposit?");
          
+                                      // anti User, således at User ikke ødelægger vores code ....
+                             while (!input.hasNextInt()) {
+                             input.next();
+                             System.out.println("Not an integer; try again.\nNice try " + loggedInUser.getUsername() + "...");
+                             log1.log(loggedInUser.getUsername()+" did something wrong.");
+        }
          double money = input.nextDouble();
          if (money <=199 || money>=1001){
          System.out.println("You are not allowed to deposit less than 200dkk or more than 1000dkk");
@@ -481,16 +654,7 @@ public class CarWash{
          
          }
       }while(choice !=1);
-      
-
-        // anti User, således at User ikke ødelægger vores code ....
-        while (!input.hasNextInt()) {
-        input.next();
-        System.out.println("Not an integer; try again.\nNice try " + loggedInUser.getUsername() + "...");
-        log1.log(loggedInUser.getUsername()+" did something wrong.");
-        }
-
-      
+ 
       }
       
       
@@ -539,5 +703,11 @@ public class CarWash{
       System.out.println("1: Yes");
       System.out.println("2: No");
    }
-      
+   
+      private static void menuClose()
+   {   
+     System.out.println("Want to continue Washing");
+     System.out.println("1: Yes");
+     System.out.println("2: No");
+   }
 }

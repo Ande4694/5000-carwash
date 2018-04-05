@@ -16,7 +16,7 @@ public class Customer{
    Logger log2 = new Logger("Receipt.txt");
    Random r = new Random();
    
-   // default constructor  til customer så de har 1000 dkk (BRUGER VI DET HER???)
+   // default constructor  til customer så de har 1000 dkk 
    public Customer(){
       creditCard[0]=r.nextInt(10000-200)+200;
    }

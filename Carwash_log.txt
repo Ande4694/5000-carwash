@@ -1203,3 +1203,198 @@ Thu Apr 05 09:16:14 CEST 2018 : Not enough funds for the "bad wash"
 Thu Apr 05 09:16:21 CEST 2018 : Thomas transfered: 500.0 to Thomas's washcard.
 Thu Apr 05 09:16:25 CEST 2018 : Car was washed with "Bad wash"
 Thu Apr 05 09:16:28 CEST 2018 : Thomas Printed out a Receipt
+Thu Apr 05 09:24:54 CEST 2018 : System was started
+Thu Apr 05 09:25:20 CEST 2018 : Attempt to create a new account and password
+Thu Apr 05 09:31:56 CEST 2018 : New user created: hej
+Thu Apr 05 09:31:57 CEST 2018 : hej created a password :hej
+Thu Apr 05 09:31:59 CEST 2018 : New user created
+Thu Apr 05 09:32:05 CEST 2018 : hej entered the system with password: hej
+Thu Apr 05 09:32:05 CEST 2018 : Succesfuly logged in.
+Thu Apr 05 09:32:10 CEST 2018 : hej transfered: 500.0 to hej's washcard.
+Thu Apr 05 09:32:13 CEST 2018 : hej Checked their bank account on a wash maschine... How? O_O
+Thu Apr 05 09:32:25 CEST 2018 : hej Analyzed the cars dirtyness
+Thu Apr 05 09:34:52 CEST 2018 : System was started
+Thu Apr 05 09:35:00 CEST 2018 : Thomas1234 entered the system with password: 5
+Thu Apr 05 09:35:01 CEST 2018 : Invalid username or password
+Thu Apr 05 09:35:01 CEST 2018 : System was started
+Thu Apr 05 09:35:05 CEST 2018 : Thomas entered the system with password: 1234
+Thu Apr 05 09:35:05 CEST 2018 : Succesfuly logged in.
+Thu Apr 05 09:35:06 CEST 2018 : Thomas Checked their bank account on a wash maschine... How? O_O
+Thu Apr 05 09:35:16 CEST 2018 : Thomas transfered: 500.0 to Thomas's washcard.
+Thu Apr 05 09:35:26 CEST 2018 : Car was washed with "Bad wash"
+Thu Apr 05 09:36:22 CEST 2018 : System was started
+Thu Apr 05 09:36:25 CEST 2018 : Thomas entered the system with password: 1234
+Thu Apr 05 09:36:26 CEST 2018 : Succesfuly logged in.
+Thu Apr 05 09:36:28 CEST 2018 : Thomas transfered: 500.0 to Thomas's washcard.
+Thu Apr 05 09:37:23 CEST 2018 : System was started
+Thu Apr 05 09:37:26 CEST 2018 : Thomas entered the system with password: 1234
+Thu Apr 05 09:37:26 CEST 2018 : Succesfuly logged in.
+Thu Apr 05 09:37:28 CEST 2018 : Thomas transfered: 500.0 to Thomas's washcard.
+Thu Apr 05 09:37:54 CEST 2018 : Car was washed with "Bad wash"
+Thu Apr 05 09:38:42 CEST 2018 : System was started
+Thu Apr 05 09:39:01 CEST 2018 : null entered the system with password: null
+Thu Apr 05 09:39:01 CEST 2018 : Invalid username or password
+Thu Apr 05 09:39:01 CEST 2018 : System was started
+Thu Apr 05 09:39:04 CEST 2018 : System was started
+Thu Apr 05 09:39:08 CEST 2018 : Thomas entered the system with password: 1234
+Thu Apr 05 09:39:08 CEST 2018 : Succesfuly logged in.
+Thu Apr 05 09:39:12 CEST 2018 : Thomas transfered: 1000.0 to Thomas's washcard.
+Thu Apr 05 09:39:27 CEST 2018 : Car was washed with "Bad wash"
+Thu Apr 05 09:39:30 CEST 2018 : Thomas Printed out a Receipt
+Thu Apr 05 09:41:36 CEST 2018 : Car was washed with "Bad wash"
+Thu Apr 05 09:41:38 CEST 2018 : Thomas Printed out a Receipt
+Thu Apr 05 09:59:41 CEST 2018 : System was started
+Thu Apr 05 09:59:46 CEST 2018 : Admin entered the system with password: 1
+Thu Apr 05 09:59:46 CEST 2018 : Succesfuly logged in.
+Thu Apr 05 09:59:49 CEST 2018 : Admin transfered: 500.0 to Admin's washcard.
+Thu Apr 05 09:59:55 CEST 2018 : Car was washed with "Super wash"
+Thu Apr 05 09:59:56 CEST 2018 : Admin Printed out a Receipt
+Thu Apr 05 10:00:06 CEST 2018 : Admin Printed out a Receipt
+Thu Apr 05 10:00:30 CEST 2018 : System was started
+Thu Apr 05 10:00:34 CEST 2018 : Admin entered the system with password: 1
+Thu Apr 05 10:00:34 CEST 2018 : Succesfuly logged in.
+Thu Apr 05 10:00:36 CEST 2018 : Admin transfered: 550.0 to Admin's washcard.
+Thu Apr 05 10:00:40 CEST 2018 : Car was washed with "Super wash"
+Thu Apr 05 10:00:40 CEST 2018 : Admin Printed out a Receipt
+Thu Apr 05 10:01:30 CEST 2018 : System was started
+Thu Apr 05 10:05:02 CEST 2018 : System was started
+Thu Apr 05 10:05:05 CEST 2018 : Admin entered the system with password: 1
+Thu Apr 05 10:05:05 CEST 2018 : Succesfuly logged in.
+Thu Apr 05 10:05:08 CEST 2018 : Admin transfered: 500.0 to Admin's washcard.
+Thu Apr 05 10:05:14 CEST 2018 : Car was washed with "Bad wash"
+Thu Apr 05 10:05:16 CEST 2018 : Admin Printed out a Receipt
+Thu Apr 05 10:05:56 CEST 2018 : System was started
+Thu Apr 05 10:06:00 CEST 2018 : Admin entered the system with password: 1
+Thu Apr 05 10:06:00 CEST 2018 : Succesfuly logged in.
+Thu Apr 05 10:12:18 CEST 2018 : System was started
+Thu Apr 05 10:12:20 CEST 2018 : Admin entered the system with password: 1
+Thu Apr 05 10:12:20 CEST 2018 : Succesfuly logged in.
+Thu Apr 05 10:12:25 CEST 2018 : Admin transfered: 500.0 to Admin's washcard.
+Thu Apr 05 10:12:45 CEST 2018 : Car was washed with "Bad wash"
+Thu Apr 05 10:12:45 CEST 2018 : Admin Printed out a Receipt
+Thu Apr 05 10:15:45 CEST 2018 : System was started
+Thu Apr 05 10:15:51 CEST 2018 : Thomas entered the system with password: 1234
+Thu Apr 05 10:15:51 CEST 2018 : Succesfuly logged in.
+Thu Apr 05 10:16:09 CEST 2018 : Thomas checked balance.
+Thu Apr 05 10:16:19 CEST 2018 : Thomas transfered: 500.0 to Thomas's washcard.
+Thu Apr 05 10:16:41 CEST 2018 : Car was washed with "Super wash"
+Thu Apr 05 10:16:44 CEST 2018 : Thomas Printed out a Receipt
+Thu Apr 05 10:17:29 CEST 2018 : System was started
+Thu Apr 05 10:17:36 CEST 2018 : Thomas entered the system with password: 1234
+Thu Apr 05 10:17:36 CEST 2018 : Succesfuly logged in.
+Thu Apr 05 10:17:38 CEST 2018 : Thomas Checked their bank account on a wash maschine... How? O_O
+Thu Apr 05 10:17:44 CEST 2018 : Thomas succesfuly created a washcard
+Thu Apr 05 10:17:48 CEST 2018 : Thomas Checked their bank account on a wash maschine... How? O_O
+Thu Apr 05 10:18:16 CEST 2018 : Thomas transfered: 1000.0 to Thomas's washcard.
+Thu Apr 05 10:19:59 CEST 2018 : Thomas tried to deposit more than 1000dkk... Stupid banks roles
+Thu Apr 05 10:20:07 CEST 2018 : Car was washed with "Bad wash"
+Thu Apr 05 10:20:08 CEST 2018 : Thomas Printed out a Receipt
+Thu Apr 05 10:20:13 CEST 2018 : Thomas checked balance.
+Thu Apr 05 10:20:18 CEST 2018 : Thomas transfered: 1000.0 to Thomas's washcard.
+Thu Apr 05 10:20:20 CEST 2018 : Thomas checked balance.
+Thu Apr 05 10:23:55 CEST 2018 : System was started
+Thu Apr 05 10:24:20 CEST 2018 : System was started
+Thu Apr 05 10:24:40 CEST 2018 : Thomas entered the system with password: 1234
+Thu Apr 05 10:24:41 CEST 2018 : Succesfuly logged in.
+Thu Apr 05 10:24:54 CEST 2018 : Thomas transfered: 500.0 to Thomas's washcard.
+Thu Apr 05 10:24:57 CEST 2018 : Thomas Analyzed the cars dirtyness
+Thu Apr 05 10:25:02 CEST 2018 : Car was washed with "Super wash"
+Thu Apr 05 10:25:02 CEST 2018 : Thomas Printed out a Receipt
+Thu Apr 05 10:25:09 CEST 2018 : Thomas logged out
+Thu Apr 05 10:27:13 CEST 2018 : System was started
+Thu Apr 05 10:27:20 CEST 2018 : Thomas entered the system with password: 1234
+Thu Apr 05 10:27:20 CEST 2018 : Succesfuly logged in.
+Thu Apr 05 10:27:26 CEST 2018 : Thomas Analyzed the cars dirtyness
+Thu Apr 05 10:28:32 CEST 2018 : System was started
+Thu Apr 05 10:28:35 CEST 2018 : User entered wrong input, most likely Jarl
+Thu Apr 05 10:28:42 CEST 2018 : Thomas entered the system with password: 1234
+Thu Apr 05 10:28:42 CEST 2018 : Succesfuly logged in.
+Thu Apr 05 10:28:43 CEST 2018 : Thomas did something wrong.
+Thu Apr 05 10:28:46 CEST 2018 : Thomas did something wrong.
+Thu Apr 05 10:32:34 CEST 2018 : System was started
+Thu Apr 05 10:32:38 CEST 2018 : Thomas entered the system with password: 1234
+Thu Apr 05 10:32:38 CEST 2018 : Succesfuly logged in.
+Thu Apr 05 10:32:43 CEST 2018 : Thomas transfered: 500.0 to Thomas's washcard.
+Thu Apr 05 10:32:45 CEST 2018 : Thomas did something wrong.
+Thu Apr 05 10:32:48 CEST 2018 : Car was washed with "Bad wash"
+Thu Apr 05 10:33:21 CEST 2018 : System was started
+Thu Apr 05 10:33:26 CEST 2018 : Admin entered the system with password: 1
+Thu Apr 05 10:33:26 CEST 2018 : Succesfuly logged in.
+Thu Apr 05 10:33:32 CEST 2018 : Admin transfered: 500.0 to Admin's washcard.
+Thu Apr 05 10:33:35 CEST 2018 : Car was washed with "Bad wash"
+Thu Apr 05 10:33:36 CEST 2018 : Admin did something wrong.
+Thu Apr 05 10:33:42 CEST 2018 : Admin Printed out a Receipt
+Thu Apr 05 10:34:47 CEST 2018 : System was started
+Thu Apr 05 10:34:53 CEST 2018 : Admin entered the system with password: 1
+Thu Apr 05 10:34:53 CEST 2018 : Succesfuly logged in.
+Thu Apr 05 10:35:02 CEST 2018 : Admin transfered: 500.0 to Admin's washcard.
+Thu Apr 05 10:35:52 CEST 2018 : Admin did something wrong.
+Thu Apr 05 10:36:07 CEST 2018 : Car was washed with "Bad wash"
+Thu Apr 05 10:36:50 CEST 2018 : Admin did something wrong.
+Thu Apr 05 10:36:53 CEST 2018 : Admin did not print a receipt.
+Thu Apr 05 10:37:00 CEST 2018 : Admin did something wrong.
+Thu Apr 05 10:38:20 CEST 2018 : System was started
+Thu Apr 05 10:38:26 CEST 2018 : Thomas entered the system with password: 1234
+Thu Apr 05 10:38:26 CEST 2018 : Succesfuly logged in.
+Thu Apr 05 10:38:31 CEST 2018 : Thomas did something wrong.
+Thu Apr 05 10:38:32 CEST 2018 : Not enough funds for the "bad wash"
+Thu Apr 05 10:39:29 CEST 2018 : System was started
+Thu Apr 05 10:39:32 CEST 2018 : Admin entered the system with password: 1
+Thu Apr 05 10:39:32 CEST 2018 : Succesfuly logged in.
+Thu Apr 05 10:39:38 CEST 2018 : Admin transfered: 500.0 to Admin's washcard.
+Thu Apr 05 10:39:40 CEST 2018 : Admin did something wrong.
+Thu Apr 05 10:39:44 CEST 2018 : Admin did something wrong.
+Thu Apr 05 10:39:44 CEST 2018 : Car was washed with "Bad wash"
+Thu Apr 05 10:39:46 CEST 2018 : Admin did something wrong.
+Thu Apr 05 10:39:46 CEST 2018 : Admin Printed out a Receipt
+Thu Apr 05 10:39:48 CEST 2018 : Admin did something wrong.
+Thu Apr 05 10:42:35 CEST 2018 : System was started
+Thu Apr 05 10:42:36 CEST 2018 : User entered wrong input, most likely Jarl
+Thu Apr 05 10:42:39 CEST 2018 : Attempt to create a new account and password
+Thu Apr 05 10:42:45 CEST 2018 : New user created: sgrogh8s93
+Thu Apr 05 10:42:46 CEST 2018 : sgrogh8s93 created a password :sj4j34
+Thu Apr 05 10:42:47 CEST 2018 : sgrogh8s93 entered wrong password
+Thu Apr 05 10:42:47 CEST 2018 : Attempt to create a new account and password
+Thu Apr 05 10:42:54 CEST 2018 : System was started
+Thu Apr 05 10:42:56 CEST 2018 : Admin entered the system with password: 1
+Thu Apr 05 10:42:56 CEST 2018 : Succesfuly logged in.
+Thu Apr 05 10:42:58 CEST 2018 : Admin did something wrong.
+Thu Apr 05 10:43:27 CEST 2018 : System was started
+Thu Apr 05 10:43:30 CEST 2018 : Admin entered the system with password: 1
+Thu Apr 05 10:43:30 CEST 2018 : Succesfuly logged in.
+Thu Apr 05 10:43:34 CEST 2018 : Admin did something wrong.
+Thu Apr 05 10:43:36 CEST 2018 : Admin transfered: 500.0 to Admin's washcard.
+Thu Apr 05 10:44:31 CEST 2018 : System was started
+Thu Apr 05 10:44:35 CEST 2018 : Admin entered the system with password: 1
+Thu Apr 05 10:44:35 CEST 2018 : Succesfuly logged in.
+Thu Apr 05 10:44:37 CEST 2018 : Admin transfered: 500.0 to Admin's washcard.
+Thu Apr 05 10:44:39 CEST 2018 : Admin did something wrong.
+Thu Apr 05 10:44:41 CEST 2018 : Admin did something wrong.
+Thu Apr 05 10:44:43 CEST 2018 : Admin did something wrong.
+Thu Apr 05 10:44:44 CEST 2018 : Car was washed with "Bad wash"
+Thu Apr 05 10:44:45 CEST 2018 : Admin did something wrong.
+Thu Apr 05 10:44:45 CEST 2018 : Admin Printed out a Receipt
+Thu Apr 05 10:44:46 CEST 2018 : Admin did something wrong.
+Thu Apr 05 10:44:48 CEST 2018 : Admin did something wrong.
+Thu Apr 05 10:44:51 CEST 2018 : Admin did something wrong.
+Thu Apr 05 10:44:52 CEST 2018 : Car was washed with "Good wash"
+Thu Apr 05 10:44:52 CEST 2018 : Admin did something wrong.
+Thu Apr 05 10:44:54 CEST 2018 : Admin did something wrong.
+Thu Apr 05 10:44:55 CEST 2018 : Admin Printed out a Receipt
+Thu Apr 05 10:44:56 CEST 2018 : Admin did something wrong.
+Thu Apr 05 10:44:57 CEST 2018 : Admin did something wrong.
+Thu Apr 05 10:45:03 CEST 2018 : Admin did something wrong.
+Thu Apr 05 10:45:04 CEST 2018 : Not enough funds for the "Super wash"
+Thu Apr 05 10:45:05 CEST 2018 : Admin did something wrong.
+Thu Apr 05 10:45:07 CEST 2018 : Admin did something wrong.
+Thu Apr 05 10:45:11 CEST 2018 : Admin Analyzed the cars dirtyness
+Thu Apr 05 10:45:12 CEST 2018 : Admin did something wrong.
+Thu Apr 05 10:45:14 CEST 2018 : Admin did something wrong.
+Thu Apr 05 10:45:16 CEST 2018 : Admin succesfuly created a washcard
+Thu Apr 05 10:45:17 CEST 2018 : Admin did something wrong.
+Thu Apr 05 10:45:19 CEST 2018 : Admin Checked their bank account on a wash maschine... How? O_O
+Thu Apr 05 10:45:20 CEST 2018 : Admin did something wrong.
+Thu Apr 05 10:45:24 CEST 2018 : Admin did something wrong.
+Thu Apr 05 10:45:26 CEST 2018 : Admin did something wrong.
+Thu Apr 05 10:47:39 CEST 2018 : System was started
+Thu Apr 05 10:49:55 CEST 2018 : System was started
