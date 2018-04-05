@@ -260,7 +260,7 @@ public class CarWash{
                              
                                 
                                  case 1: 
-                                 System.out.println("Receipt of purchase:\n1x Gustav special \"bad wash\"\nPrice: 100 dkk.");
+                                 System.out.println("*****Receipt of purchase*****\nType of wash: Gustav special - \"Bad wash\nPurchased "+date+" \nPrice: 100 dkk.\n******* Gustav out *******\n");
                                  log1.log(loggedInUser.getUsername()+" Printed out a Receipt");
                                  break;
                              
@@ -296,9 +296,9 @@ public class CarWash{
                                    choice = input.nextInt();
                                    switch(choice) {
                              
-                                   //MISSING RECEIPT!!!
+                                  
                                    case 1: 
-                                   System.out.println("Receipt of purchase:\n1x Gustav special \"good wash\"\nPrice: 200 dkk.");
+                                   System.out.println("*****Receipt of purchase*****\nType of wash: Gustav special - \"Good wash\nPurchased "+date+" \nPrice: 200 dkk.\n******* Gustav out *******\n");
                                    log1.log(loggedInUser.getUsername()+" Printed out a Receipt");
                                    break;
                              
@@ -337,7 +337,7 @@ public class CarWash{
                              
                                    
                                    case 1: 
-                                   System.out.println("*****Receipt of purchase*****\nType of wash: Gustav special - \"Super wash\nPurchased "+date+" \nPrice: 300 dkk.\n");
+                                   System.out.println("*****Receipt of purchase*****\nType of wash: Gustav special - \"Super wash\nPurchased "+date+" \nPrice: 300 dkk.\n******* Gustav out *******\n");
                                    log1.log(loggedInUser.getUsername()+" Printed out a Receipt");
                                    break;
                              
