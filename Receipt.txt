@@ -153,3 +153,7 @@ Wed Apr 04 15:59:52 CEST 2018 : Receipt of purchase: 1x "5000 WashCard" by: Ande
 Wed Apr 04 16:01:20 CEST 2018 : Receipt of purchase: 1x "5000 WashCard" by: AdminAdministration fee: 150dkk.
 Wed Apr 04 16:01:32 CEST 2018 : Receipt of purchase: 800.0 washfunds added to washcard by: Admin
 Wed Apr 04 16:01:47 CEST 2018 : Receipt of purchase: 1x "Super wash" by: Admin price: 300dkk.
+Thu Apr 05 09:11:53 CEST 2018 : Receipt of purchase: 500.0 washfunds added to washcard by: Thomas
+Thu Apr 05 09:12:14 CEST 2018 : Receipt of purchase: 1x "Super wash" by: Thomas price: 300dkk.
+Thu Apr 05 09:16:21 CEST 2018 : Receipt of purchase: 500.0 washfunds added to washcard by: Thomas
+Thu Apr 05 09:16:25 CEST 2018 : Receipt of purchase: 1x "Bad wash" by: Thomas price: 100dkk.

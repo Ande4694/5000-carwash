@@ -243,7 +243,6 @@ public class CarWash{
 
                   case 1:
                   menuPromptYes();
-                       while (choice !=5000){
                        choice = input.nextInt();
                        switch(choice) {
                        
@@ -271,19 +270,16 @@ public class CarWash{
                                 }}
 
                            menuPrompt2();
-                           choice = 5000;
                            break;
                         
                            case 2:
                            menuPrompt2();
-                           choice = 5000;
                            break;
-                       }}
+                       }
                   break; 
       
                   case 2:
                   menuPromptYes();
-                       while (choice !=5000){
                        choice = input.nextInt();
                        switch(choice) {
                        
@@ -313,19 +309,16 @@ public class CarWash{
                                    }
 
                            menuPrompt2();
-                           choice = 5000;
                            break;
                         
                            case 2:
                            menuPrompt2();
-                           choice = 5000;
                            break;
-                       }}                  
+                       }                 
                   break;
       
                   case 3:
                   menuPromptYes();
-                       while (choice !=5000){
                        choice = input.nextInt();
                        switch(choice) {
                        
@@ -353,16 +346,12 @@ public class CarWash{
                                    break;
                                    }
                                    }
-
                            menuPrompt2();
-                           choice = 5000;
                            break;
                         
                            case 2:
-                           menuPrompt2();
-                           choice = 5000;
                            break;
-                       }}
+                       }
                   break;
       
                   case 4:
