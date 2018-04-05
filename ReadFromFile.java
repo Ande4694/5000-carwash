@@ -31,8 +31,8 @@ public String read;
          System.out.println("Total spend: \t\t\t"+a);
          System.out.println("Bad washes: \t\t\t"+b);
          System.out.println("Good washes: \t\t\t"+c);
-         System.out.println("Super washes: \t\t"+d);
-         System.out.println("Average spend: \t\t"+f);   
+         System.out.println("Super washes: \t\t\t"+d);
+         System.out.println("Average spend: \t\t"+f+"\n");   
 
       }
       } catch (Exception e){

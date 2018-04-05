@@ -1203,6 +1203,7 @@ Thu Apr 05 09:16:14 CEST 2018 : Not enough funds for the "bad wash"
 Thu Apr 05 09:16:21 CEST 2018 : Thomas transfered: 500.0 to Thomas's washcard.
 Thu Apr 05 09:16:25 CEST 2018 : Car was washed with "Bad wash"
 Thu Apr 05 09:16:28 CEST 2018 : Thomas Printed out a Receipt
+<<<<<<< HEAD
 Thu Apr 05 09:24:54 CEST 2018 : System was started
 Thu Apr 05 09:25:20 CEST 2018 : Attempt to create a new account and password
 Thu Apr 05 09:31:56 CEST 2018 : New user created: hej
@@ -1398,3 +1399,21 @@ Thu Apr 05 10:45:24 CEST 2018 : Admin did something wrong.
 Thu Apr 05 10:45:26 CEST 2018 : Admin did something wrong.
 Thu Apr 05 10:47:39 CEST 2018 : System was started
 Thu Apr 05 10:49:55 CEST 2018 : System was started
+=======
+Thu Apr 05 09:25:47 CEST 2018 : System was started
+Thu Apr 05 09:25:52 CEST 2018 : Admin entered the system with password: 1
+Thu Apr 05 09:25:52 CEST 2018 : Succesfuly logged in.
+Thu Apr 05 09:26:32 CEST 2018 : System was started
+Thu Apr 05 09:26:36 CEST 2018 : Admin entered the system with password: 1
+Thu Apr 05 09:26:36 CEST 2018 : Succesfuly logged in.
+Thu Apr 05 09:26:49 CEST 2018 : Admin logged out.
+Thu Apr 05 09:26:49 CEST 2018 : System was started
+Thu Apr 05 09:26:53 CEST 2018 : Anders entered the system with password: 7894
+Thu Apr 05 09:26:53 CEST 2018 : Succesfuly logged in.
+Thu Apr 05 09:26:56 CEST 2018 : Anders succesfuly created a washcard
+Thu Apr 05 09:27:00 CEST 2018 : Anders transfered: 800.0 to Anders's washcard.
+Thu Apr 05 09:27:14 CEST 2018 : Car was washed with "Super wash"
+Thu Apr 05 09:27:15 CEST 2018 : Anders Did not print out a Receipt
+Thu Apr 05 09:27:24 CEST 2018 : Car was washed with "Good wash"
+Thu Apr 05 09:27:25 CEST 2018 : Anders Printed out a Receipt
+>>>>>>> 71dd7066802d5f4efaaf400001a5a5f5880f7778

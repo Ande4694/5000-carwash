@@ -12,6 +12,19 @@ SSD   https://drive.google.com/file/d/1SrkJARtutap4iZXzB_-YyeJ2jFD7o4jW/view?usp
 
 opgave beskrivelse https://docs.google.com/document/d/e/2PACX-1vTaq88kCAyWz5M12eHSc0U3tWu3HsKC2JG8ap2u6DZSr3_1pwtm_WeZszjedLM7HYxLaoiMtJB_s4cx/pub
 
+Lidt om gruppe 5000:
+- Gruppe 5000 består af 4 griske sataner.
+- Vores moto er stakater frem for service.
+- Vores hovedkontor ligger på Lygten 37, 1 sal b132.
+
+Lidt om gruppe 5000's handelsbetingelser:
+- Gruppe 5000 frakender sig alt ansvar for brug af carwash5k systemet.
+- Gruppe 5000 dækker ikke skader påført sig ved brug af carwash5k systemet.
+- Gruppe 5000 refundere ikke indbetalte valuta til vaskekort.
+- Gruppe 5000 opkræver et gebyr på 5 DKK for hver gang systemet bruges ved fremlæggelse.
+- Gruppe 5000 kan ikke holdes ansvarlig hvis din fiktionelle bil forsvinder under vaskning.
+
+
 metode navne:
 Car class:
 - getDirt();
